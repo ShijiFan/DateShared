@@ -1,0 +1,63 @@
+{
+ "check": {
+  "B88": {
+   "n": 4,
+   "max_abs_diff": 0.0
+  },
+  "A37": {
+   "n": 4,
+   "max_abs_diff": 0.0
+  },
+  "A88": {
+   "n": 4,
+   "max_abs_diff": 0.0
+  }
+ },
+ "archives": {
+  "A": {
+   "meta": {
+    "source": "NL sites A",
+    "n_tasks": 672,
+    "n_complete": 468,
+    "weather": "KNMI RH daily, station A=283 B=280; API decay 0.9, 60 d"
+   },
+   "th": [
+    3.2699719892783556,
+    3.3202692444183097,
+    0.000905722520329617,
+    0.9208145836954775,
+    7.109179635112349
+   ]
+  },
+  "B": {
+   "meta": {
+    "source": "NL sites B",
+    "n_tasks": 336,
+    "n_complete": 240,
+    "weather": "KNMI RH daily, station A=283 B=280; API decay 0.9, 60 d"
+   },
+   "th": [
+    5.892074066794369,
+    6.123839166917279,
+    -9.878893745687645e-05,
+    1.3849931071817732,
+    16.37343355402095
+   ]
+  },
+  "all": {
+   "meta": {
+    "source": "NL sites A+B",
+    "n_tasks": 1008,
+    "n_complete": 708,
+    "weather": "KNMI RH daily, station A=283 B=280; API decay 0.9, 60 d"
+   },
+   "th": [
+    4.040162932428656,
+    4.132070455433629,
+    0.000625008408324175,
+    1.0955464845175493,
+    9.575519304358451
+   ]
+  }
+ }
+}

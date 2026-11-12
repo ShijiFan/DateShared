@@ -1,0 +1,18 @@
+\begin{table}[!t]
+\caption{Independent confirmation in Pays de Caux, France (frozen method and Dutch archive; 56 ordered year pairs of 2017--2024). Paired median difference (share positive) [90\% year-block bootstrap interval]; criteria fixed before the run.}
+\label{tab:fr}
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}p{2.8cm}p{3.7cm}l@{}}
+\toprule
+Comparison & Result & Met\\
+\midrule
+Proposed vs.\ mean-shift EM & $+0.0169$ (93\%) [$+0.012$, $+0.027$] & yes\\
+Proposed vs.\ empirical full-rank prior & $+0.0042$ (71\%) [$+0.001$, $+0.007$] & yes\\
+HGB: proposed vs.\ EM shifts & $+0.0254$ (88\%) [$+0.019$, $+0.032$] & yes\\
+Weather-conditioned prior vs.\ empirical prior & $+0.0029$ (64\%) [$-0.001$, $+0.007$] & improvement\\
+\midrule
+Median BA: none / EM / empirical / proposed & 0.629 / 0.777 / 0.792 / 0.796 & \\
+Spearman($w_t$, $\Delta$API) & 0.73 ($n=5,880$) & \\
+\bottomrule
+\end{tabular}
+\end{table}

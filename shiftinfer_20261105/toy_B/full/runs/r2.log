@@ -1,0 +1,72 @@
+joint prior: tasks 336 complete 240 dim 315
+fit B j0_hpj_rep {} r None 2 s
+fit B j1_hpj_wc {"th": [5.8921, 6.1238, -0.0001, 1.385, 16.3734]} r None 5 s
+fit B j2_hpj_wc_cond {"th": [5.8921, 6.1238, -0.0001, 1.385, 16.3734]} r None 5 s
+fit B j3_hpj_wccoh_cond {"th": [6.0017, 6.2367, -0.1656, 1.3501, 17.5952, 0.026]} r None 6 s
+fit B j4_hpj_plusD {} r None 7 s
+fit B j5_hpj_wc_cond_plusD {"th": [5.8921, 6.1238, -0.0001, 1.385, 16.3734]} r None 9 s
+A37 2017 -> 2018 {'em_cov01': 0.556, 'hpj_cov01': 0.617, 'j0_hpj_rep': 0.617, 'j1_hpj_wc': 0.623, 'j2_hpj_wc_cond': 0.619, 'j3_hpj_wccoh_cond': 0.62, 'j4_hpj_plusD': 0.595, 'j5_hpj_wc_cond_plusD': 0.629} 127 s
+A37 2017 -> 2021 {'em_cov01': 0.775, 'hpj_cov01': 0.784, 'j0_hpj_rep': 0.784, 'j1_hpj_wc': 0.782, 'j2_hpj_wc_cond': 0.784, 'j3_hpj_wccoh_cond': 0.785, 'j4_hpj_plusD': 0.785, 'j5_hpj_wc_cond_plusD': 0.785} 247 s
+A37 2017 -> 2025 {'em_cov01': 0.697, 'hpj_cov01': 0.745, 'j0_hpj_rep': 0.745, 'j1_hpj_wc': 0.738, 'j2_hpj_wc_cond': 0.753, 'j3_hpj_wccoh_cond': 0.751, 'j4_hpj_plusD': 0.733, 'j5_hpj_wc_cond_plusD': 0.737} 365 s
+A37 2018 -> 2020 {'em_cov01': 0.725, 'hpj_cov01': 0.776, 'j0_hpj_rep': 0.776, 'j1_hpj_wc': 0.787, 'j2_hpj_wc_cond': 0.785, 'j3_hpj_wccoh_cond': 0.784, 'j4_hpj_plusD': 0.751, 'j5_hpj_wc_cond_plusD': 0.782} 488 s
+A37 2018 -> 2024 {'em_cov01': 0.56, 'hpj_cov01': 0.574, 'j0_hpj_rep': 0.574, 'j1_hpj_wc': 0.579, 'j2_hpj_wc_cond': 0.581, 'j3_hpj_wccoh_cond': 0.581, 'j4_hpj_plusD': 0.583, 'j5_hpj_wc_cond_plusD': 0.595} 605 s
+A37 2019 -> 2018 {'em_cov01': 0.623, 'hpj_cov01': 0.727, 'j0_hpj_rep': 0.727, 'j1_hpj_wc': 0.72, 'j2_hpj_wc_cond': 0.719, 'j3_hpj_wccoh_cond': 0.719, 'j4_hpj_plusD': 0.716, 'j5_hpj_wc_cond_plusD': 0.709} 726 s
+A37 2019 -> 2022 {'em_cov01': 0.667, 'hpj_cov01': 0.707, 'j0_hpj_rep': 0.707, 'j1_hpj_wc': 0.72, 'j2_hpj_wc_cond': 0.717, 'j3_hpj_wccoh_cond': 0.716, 'j4_hpj_plusD': 0.721, 'j5_hpj_wc_cond_plusD': 0.722} 825 s
+A37 2020 -> 2017 {'em_cov01': 0.739, 'hpj_cov01': 0.755, 'j0_hpj_rep': 0.755, 'j1_hpj_wc': 0.754, 'j2_hpj_wc_cond': 0.754, 'j3_hpj_wccoh_cond': 0.751, 'j4_hpj_plusD': 0.764, 'j5_hpj_wc_cond_plusD': 0.761} 944 s
+A37 2020 -> 2021 {'em_cov01': 0.722, 'hpj_cov01': 0.706, 'j0_hpj_rep': 0.706, 'j1_hpj_wc': 0.745, 'j2_hpj_wc_cond': 0.747, 'j3_hpj_wccoh_cond': 0.747, 'j4_hpj_plusD': 0.745, 'j5_hpj_wc_cond_plusD': 0.747} 1066 s
+A37 2020 -> 2025 {'em_cov01': 0.754, 'hpj_cov01': 0.768, 'j0_hpj_rep': 0.768, 'j1_hpj_wc': 0.782, 'j2_hpj_wc_cond': 0.781, 'j3_hpj_wccoh_cond': 0.781, 'j4_hpj_plusD': 0.775, 'j5_hpj_wc_cond_plusD': 0.78} 1181 s
+A37 2021 -> 2019 {'em_cov01': 0.773, 'hpj_cov01': 0.782, 'j0_hpj_rep': 0.782, 'j1_hpj_wc': 0.775, 'j2_hpj_wc_cond': 0.787, 'j3_hpj_wccoh_cond': 0.786, 'j4_hpj_plusD': 0.776, 'j5_hpj_wc_cond_plusD': 0.775} 1302 s
+A37 2021 -> 2024 {'em_cov01': 0.603, 'hpj_cov01': 0.623, 'j0_hpj_rep': 0.623, 'j1_hpj_wc': 0.643, 'j2_hpj_wc_cond': 0.663, 'j3_hpj_wccoh_cond': 0.663, 'j4_hpj_plusD': 0.658, 'j5_hpj_wc_cond_plusD': 0.664} 1416 s
+A37 2022 -> 2018 {'em_cov01': 0.735, 'hpj_cov01': 0.731, 'j0_hpj_rep': 0.731, 'j1_hpj_wc': 0.737, 'j2_hpj_wc_cond': 0.741, 'j3_hpj_wccoh_cond': 0.741, 'j4_hpj_plusD': 0.744, 'j5_hpj_wc_cond_plusD': 0.743} 1516 s
+A37 2022 -> 2021 {'em_cov01': 0.716, 'hpj_cov01': 0.715, 'j0_hpj_rep': 0.715, 'j1_hpj_wc': 0.726, 'j2_hpj_wc_cond': 0.728, 'j3_hpj_wccoh_cond': 0.729, 'j4_hpj_plusD': 0.729, 'j5_hpj_wc_cond_plusD': 0.728} 1616 s
+A37 2024 -> 2017 {'em_cov01': 0.704, 'hpj_cov01': 0.692, 'j0_hpj_rep': 0.692, 'j1_hpj_wc': 0.702, 'j2_hpj_wc_cond': 0.703, 'j3_hpj_wccoh_cond': 0.705, 'j4_hpj_plusD': 0.713, 'j5_hpj_wc_cond_plusD': 0.718} 1734 s
+A37 2024 -> 2020 {'em_cov01': 0.699, 'hpj_cov01': 0.73, 'j0_hpj_rep': 0.73, 'j1_hpj_wc': 0.723, 'j2_hpj_wc_cond': 0.723, 'j3_hpj_wccoh_cond': 0.723, 'j4_hpj_plusD': 0.724, 'j5_hpj_wc_cond_plusD': 0.727} 1853 s
+A37 2024 -> 2025 {'em_cov01': 0.737, 'hpj_cov01': 0.733, 'j0_hpj_rep': 0.733, 'j1_hpj_wc': 0.732, 'j2_hpj_wc_cond': 0.741, 'j3_hpj_wccoh_cond': 0.741, 'j4_hpj_plusD': 0.743, 'j5_hpj_wc_cond_plusD': 0.743} 1968 s
+A37 2025 -> 2019 {'em_cov01': 0.733, 'hpj_cov01': 0.749, 'j0_hpj_rep': 0.749, 'j1_hpj_wc': 0.735, 'j2_hpj_wc_cond': 0.742, 'j3_hpj_wccoh_cond': 0.743, 'j4_hpj_plusD': 0.751, 'j5_hpj_wc_cond_plusD': 0.749} 2085 s
+A37 2025 -> 2022 {'em_cov01': 0.752, 'hpj_cov01': 0.75, 'j0_hpj_rep': 0.75, 'j1_hpj_wc': 0.766, 'j2_hpj_wc_cond': 0.77, 'j3_hpj_wccoh_cond': 0.771, 'j4_hpj_plusD': 0.76, 'j5_hpj_wc_cond_plusD': 0.77} 2179 s
+A88 2017 -> 2018 {'em_cov01': 0.567, 'hpj_cov01': 0.636, 'j0_hpj_rep': 0.636, 'j1_hpj_wc': 0.62, 'j2_hpj_wc_cond': 0.623, 'j3_hpj_wccoh_cond': 0.624, 'j4_hpj_plusD': 0.629, 'j5_hpj_wc_cond_plusD': 0.626} 2275 s
+A88 2017 -> 2021 {'em_cov01': 0.67, 'hpj_cov01': 0.733, 'j0_hpj_rep': 0.733, 'j1_hpj_wc': 0.739, 'j2_hpj_wc_cond': 0.741, 'j3_hpj_wccoh_cond': 0.742, 'j4_hpj_plusD': 0.732, 'j5_hpj_wc_cond_plusD': 0.74} 2369 s
+A88 2017 -> 2025 {'em_cov01': 0.65, 'hpj_cov01': 0.694, 'j0_hpj_rep': 0.694, 'j1_hpj_wc': 0.684, 'j2_hpj_wc_cond': 0.701, 'j3_hpj_wccoh_cond': 0.702, 'j4_hpj_plusD': 0.67, 'j5_hpj_wc_cond_plusD': 0.691} 2457 s
+A88 2018 -> 2020 {'em_cov01': 0.71, 'hpj_cov01': 0.773, 'j0_hpj_rep': 0.773, 'j1_hpj_wc': 0.76, 'j2_hpj_wc_cond': 0.764, 'j3_hpj_wccoh_cond': 0.764, 'j4_hpj_plusD': 0.768, 'j5_hpj_wc_cond_plusD': 0.766} 2566 s
+A88 2018 -> 2024 {'em_cov01': 0.533, 'hpj_cov01': 0.588, 'j0_hpj_rep': 0.588, 'j1_hpj_wc': 0.577, 'j2_hpj_wc_cond': 0.59, 'j3_hpj_wccoh_cond': 0.59, 'j4_hpj_plusD': 0.574, 'j5_hpj_wc_cond_plusD': 0.592} 2671 s
+A88 2019 -> 2018 {'em_cov01': 0.674, 'hpj_cov01': 0.737, 'j0_hpj_rep': 0.737, 'j1_hpj_wc': 0.701, 'j2_hpj_wc_cond': 0.713, 'j3_hpj_wccoh_cond': 0.712, 'j4_hpj_plusD': 0.723, 'j5_hpj_wc_cond_plusD': 0.709} 2779 s
+A88 2019 -> 2022 {'em_cov01': 0.771, 'hpj_cov01': 0.786, 'j0_hpj_rep': 0.786, 'j1_hpj_wc': 0.79, 'j2_hpj_wc_cond': 0.79, 'j3_hpj_wccoh_cond': 0.789, 'j4_hpj_plusD': 0.785, 'j5_hpj_wc_cond_plusD': 0.787} 2886 s
+A88 2020 -> 2017 {'em_cov01': 0.664, 'hpj_cov01': 0.677, 'j0_hpj_rep': 0.677, 'j1_hpj_wc': 0.665, 'j2_hpj_wc_cond': 0.675, 'j3_hpj_wccoh_cond': 0.674, 'j4_hpj_plusD': 0.678, 'j5_hpj_wc_cond_plusD': 0.68} 2977 s
+A88 2020 -> 2021 {'em_cov01': 0.685, 'hpj_cov01': 0.712, 'j0_hpj_rep': 0.712, 'j1_hpj_wc': 0.721, 'j2_hpj_wc_cond': 0.725, 'j3_hpj_wccoh_cond': 0.725, 'j4_hpj_plusD': 0.713, 'j5_hpj_wc_cond_plusD': 0.72} 3086 s
+A88 2020 -> 2025 {'em_cov01': 0.754, 'hpj_cov01': 0.776, 'j0_hpj_rep': 0.776, 'j1_hpj_wc': 0.784, 'j2_hpj_wc_cond': 0.783, 'j3_hpj_wccoh_cond': 0.783, 'j4_hpj_plusD': 0.775, 'j5_hpj_wc_cond_plusD': 0.777} 3190 s
+A88 2021 -> 2019 {'em_cov01': 0.754, 'hpj_cov01': 0.76, 'j0_hpj_rep': 0.76, 'j1_hpj_wc': 0.764, 'j2_hpj_wc_cond': 0.764, 'j3_hpj_wccoh_cond': 0.764, 'j4_hpj_plusD': 0.761, 'j5_hpj_wc_cond_plusD': 0.764} 3299 s
+A88 2021 -> 2024 {'em_cov01': 0.564, 'hpj_cov01': 0.597, 'j0_hpj_rep': 0.597, 'j1_hpj_wc': 0.614, 'j2_hpj_wc_cond': 0.621, 'j3_hpj_wccoh_cond': 0.622, 'j4_hpj_plusD': 0.607, 'j5_hpj_wc_cond_plusD': 0.621} 3402 s
+A88 2022 -> 2018 {'em_cov01': 0.751, 'hpj_cov01': 0.761, 'j0_hpj_rep': 0.761, 'j1_hpj_wc': 0.763, 'j2_hpj_wc_cond': 0.763, 'j3_hpj_wccoh_cond': 0.763, 'j4_hpj_plusD': 0.76, 'j5_hpj_wc_cond_plusD': 0.766} 3511 s
+A88 2022 -> 2021 {'em_cov01': 0.653, 'hpj_cov01': 0.711, 'j0_hpj_rep': 0.711, 'j1_hpj_wc': 0.697, 'j2_hpj_wc_cond': 0.699, 'j3_hpj_wccoh_cond': 0.699, 'j4_hpj_plusD': 0.711, 'j5_hpj_wc_cond_plusD': 0.705} 3620 s
+A88 2024 -> 2017 {'em_cov01': 0.581, 'hpj_cov01': 0.612, 'j0_hpj_rep': 0.612, 'j1_hpj_wc': 0.608, 'j2_hpj_wc_cond': 0.613, 'j3_hpj_wccoh_cond': 0.614, 'j4_hpj_plusD': 0.62, 'j5_hpj_wc_cond_plusD': 0.609} 3711 s
+A88 2024 -> 2020 {'em_cov01': 0.59, 'hpj_cov01': 0.686, 'j0_hpj_rep': 0.686, 'j1_hpj_wc': 0.682, 'j2_hpj_wc_cond': 0.693, 'j3_hpj_wccoh_cond': 0.693, 'j4_hpj_plusD': 0.703, 'j5_hpj_wc_cond_plusD': 0.705} 3816 s
+A88 2024 -> 2025 {'em_cov01': 0.68, 'hpj_cov01': 0.704, 'j0_hpj_rep': 0.704, 'j1_hpj_wc': 0.697, 'j2_hpj_wc_cond': 0.706, 'j3_hpj_wccoh_cond': 0.706, 'j4_hpj_plusD': 0.708, 'j5_hpj_wc_cond_plusD': 0.707} 3915 s
+A88 2025 -> 2019 {'em_cov01': 0.711, 'hpj_cov01': 0.754, 'j0_hpj_rep': 0.754, 'j1_hpj_wc': 0.752, 'j2_hpj_wc_cond': 0.758, 'j3_hpj_wccoh_cond': 0.757, 'j4_hpj_plusD': 0.754, 'j5_hpj_wc_cond_plusD': 0.755} 4016 s
+A88 2025 -> 2022 {'em_cov01': 0.785, 'hpj_cov01': 0.793, 'j0_hpj_rep': 0.793, 'j1_hpj_wc': 0.788, 'j2_hpj_wc_cond': 0.792, 'j3_hpj_wccoh_cond': 0.793, 'j4_hpj_plusD': 0.791, 'j5_hpj_wc_cond_plusD': 0.791} 4119 s
+joint prior: tasks 672 complete 468 dim 315
+fit A j0_hpj_rep {} r None 4122 s
+fit A j1_hpj_wc {"th": [3.27, 3.3203, 0.0009, 0.9208, 7.1092]} r None 4127 s
+fit A j2_hpj_wc_cond {"th": [3.27, 3.3203, 0.0009, 0.9208, 7.1092]} r None 4127 s
+fit A j3_hpj_wccoh_cond {"th": [3.3188, 3.3703, -0.1023, 0.9407, 7.1589, 0.03]} r None 4128 s
+fit A j4_hpj_plusD {} r None 4131 s
+fit A j5_hpj_wc_cond_plusD {"th": [3.27, 3.3203, 0.0009, 0.9208, 7.1092]} r None 4134 s
+B88 2017 -> 2018 {'em_cov01': 0.722, 'hpj_cov01': 0.773, 'j0_hpj_rep': 0.773, 'j1_hpj_wc': 0.782, 'j2_hpj_wc_cond': 0.783, 'j3_hpj_wccoh_cond': 0.783, 'j4_hpj_plusD': 0.776, 'j5_hpj_wc_cond_plusD': 0.783} 4179 s
+B88 2017 -> 2021 {'em_cov01': 0.828, 'hpj_cov01': 0.829, 'j0_hpj_rep': 0.829, 'j1_hpj_wc': 0.833, 'j2_hpj_wc_cond': 0.826, 'j3_hpj_wccoh_cond': 0.826, 'j4_hpj_plusD': 0.831, 'j5_hpj_wc_cond_plusD': 0.831} 4223 s
+B88 2017 -> 2025 {'em_cov01': 0.782, 'hpj_cov01': 0.788, 'j0_hpj_rep': 0.788, 'j1_hpj_wc': 0.797, 'j2_hpj_wc_cond': 0.806, 'j3_hpj_wccoh_cond': 0.806, 'j4_hpj_plusD': 0.796, 'j5_hpj_wc_cond_plusD': 0.804} 4265 s
+B88 2018 -> 2020 {'em_cov01': 0.808, 'hpj_cov01': 0.805, 'j0_hpj_rep': 0.805, 'j1_hpj_wc': 0.785, 'j2_hpj_wc_cond': 0.796, 'j3_hpj_wccoh_cond': 0.796, 'j4_hpj_plusD': 0.812, 'j5_hpj_wc_cond_plusD': 0.812} 4317 s
+B88 2018 -> 2024 {'em_cov01': 0.722, 'hpj_cov01': 0.721, 'j0_hpj_rep': 0.721, 'j1_hpj_wc': 0.728, 'j2_hpj_wc_cond': 0.737, 'j3_hpj_wccoh_cond': 0.739, 'j4_hpj_plusD': 0.733, 'j5_hpj_wc_cond_plusD': 0.734} 4364 s
+B88 2019 -> 2018 {'em_cov01': 0.754, 'hpj_cov01': 0.763, 'j0_hpj_rep': 0.763, 'j1_hpj_wc': 0.76, 'j2_hpj_wc_cond': 0.77, 'j3_hpj_wccoh_cond': 0.765, 'j4_hpj_plusD': 0.761, 'j5_hpj_wc_cond_plusD': 0.765} 4416 s
+B88 2019 -> 2022 {'em_cov01': 0.828, 'hpj_cov01': 0.839, 'j0_hpj_rep': 0.839, 'j1_hpj_wc': 0.835, 'j2_hpj_wc_cond': 0.838, 'j3_hpj_wccoh_cond': 0.838, 'j4_hpj_plusD': 0.838, 'j5_hpj_wc_cond_plusD': 0.839} 4467 s
+B88 2020 -> 2017 {'em_cov01': 0.801, 'hpj_cov01': 0.798, 'j0_hpj_rep': 0.798, 'j1_hpj_wc': 0.79, 'j2_hpj_wc_cond': 0.801, 'j3_hpj_wccoh_cond': 0.802, 'j4_hpj_plusD': 0.8, 'j5_hpj_wc_cond_plusD': 0.801} 4510 s
+B88 2020 -> 2021 {'em_cov01': 0.66, 'hpj_cov01': 0.768, 'j0_hpj_rep': 0.768, 'j1_hpj_wc': 0.763, 'j2_hpj_wc_cond': 0.768, 'j3_hpj_wccoh_cond': 0.768, 'j4_hpj_plusD': 0.768, 'j5_hpj_wc_cond_plusD': 0.767} 4561 s
+B88 2020 -> 2025 {'em_cov01': 0.799, 'hpj_cov01': 0.803, 'j0_hpj_rep': 0.803, 'j1_hpj_wc': 0.805, 'j2_hpj_wc_cond': 0.806, 'j3_hpj_wccoh_cond': 0.806, 'j4_hpj_plusD': 0.804, 'j5_hpj_wc_cond_plusD': 0.805} 4607 s
+B88 2021 -> 2019 {'em_cov01': 0.78, 'hpj_cov01': 0.782, 'j0_hpj_rep': 0.782, 'j1_hpj_wc': 0.784, 'j2_hpj_wc_cond': 0.786, 'j3_hpj_wccoh_cond': 0.786, 'j4_hpj_plusD': 0.782, 'j5_hpj_wc_cond_plusD': 0.781} 4655 s
+B88 2021 -> 2024 {'em_cov01': 0.747, 'hpj_cov01': 0.762, 'j0_hpj_rep': 0.762, 'j1_hpj_wc': 0.759, 'j2_hpj_wc_cond': 0.763, 'j3_hpj_wccoh_cond': 0.763, 'j4_hpj_plusD': 0.76, 'j5_hpj_wc_cond_plusD': 0.764} 4700 s
+B88 2022 -> 2018 {'em_cov01': 0.786, 'hpj_cov01': 0.798, 'j0_hpj_rep': 0.798, 'j1_hpj_wc': 0.793, 'j2_hpj_wc_cond': 0.796, 'j3_hpj_wccoh_cond': 0.796, 'j4_hpj_plusD': 0.795, 'j5_hpj_wc_cond_plusD': 0.796} 4749 s
+B88 2022 -> 2021 {'em_cov01': 0.734, 'hpj_cov01': 0.789, 'j0_hpj_rep': 0.789, 'j1_hpj_wc': 0.768, 'j2_hpj_wc_cond': 0.786, 'j3_hpj_wccoh_cond': 0.785, 'j4_hpj_plusD': 0.788, 'j5_hpj_wc_cond_plusD': 0.786} 4797 s
+B88 2024 -> 2017 {'em_cov01': 0.8, 'hpj_cov01': 0.787, 'j0_hpj_rep': 0.787, 'j1_hpj_wc': 0.764, 'j2_hpj_wc_cond': 0.782, 'j3_hpj_wccoh_cond': 0.782, 'j4_hpj_plusD': 0.798, 'j5_hpj_wc_cond_plusD': 0.783} 4839 s
+B88 2024 -> 2020 {'em_cov01': 0.774, 'hpj_cov01': 0.779, 'j0_hpj_rep': 0.779, 'j1_hpj_wc': 0.752, 'j2_hpj_wc_cond': 0.768, 'j3_hpj_wccoh_cond': 0.769, 'j4_hpj_plusD': 0.786, 'j5_hpj_wc_cond_plusD': 0.778} 4888 s
+B88 2024 -> 2025 {'em_cov01': 0.804, 'hpj_cov01': 0.824, 'j0_hpj_rep': 0.824, 'j1_hpj_wc': 0.826, 'j2_hpj_wc_cond': 0.827, 'j3_hpj_wccoh_cond': 0.827, 'j4_hpj_plusD': 0.815, 'j5_hpj_wc_cond_plusD': 0.825} 4932 s
+B88 2025 -> 2019 {'em_cov01': 0.733, 'hpj_cov01': 0.796, 'j0_hpj_rep': 0.796, 'j1_hpj_wc': 0.809, 'j2_hpj_wc_cond': 0.822, 'j3_hpj_wccoh_cond': 0.822, 'j4_hpj_plusD': 0.799, 'j5_hpj_wc_cond_plusD': 0.817} 4982 s
+B88 2025 -> 2022 {'em_cov01': 0.845, 'hpj_cov01': 0.85, 'j0_hpj_rep': 0.85, 'j1_hpj_wc': 0.847, 'j2_hpj_wc_cond': 0.85, 'j3_hpj_wccoh_cond': 0.85, 'j4_hpj_plusD': 0.848, 'j5_hpj_wc_cond_plusD': 0.851} 5030 s
+DONE cands_r2 search 5030 s

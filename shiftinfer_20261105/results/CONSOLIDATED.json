@@ -1,0 +1,442 @@
+{
+ "T1_main": {
+  "testB88_priorA": {
+   "em_cov01": {
+    "median_ba": 0.7822,
+    "vs_em": {
+     "n": 56,
+     "median": 0.0,
+     "frac_pos": 0.0
+    },
+    "vs_hpj": {
+     "n": 56,
+     "median": -0.0053,
+     "frac_pos": 0.179
+    }
+   },
+   "mllr_cov01": {
+    "median_ba": 0.7576,
+    "vs_em": {
+     "n": 56,
+     "median": -0.0109,
+     "frac_pos": 0.321
+    },
+    "vs_hpj": {
+     "n": 56,
+     "median": -0.0217,
+     "frac_pos": 0.089
+    }
+   },
+   "phys_nom": {
+    "median_ba": 0.78,
+    "vs_em": {
+     "n": 56,
+     "median": 0.0002,
+     "frac_pos": 0.518
+    },
+    "vs_hpj": {
+     "n": 56,
+     "median": -0.0094,
+     "frac_pos": 0.054
+    }
+   },
+   "learn_r*": {
+    "median_ba": 0.7924,
+    "vs_em": {
+     "n": 56,
+     "median": 0.002,
+     "frac_pos": 0.786
+    },
+    "vs_hpj": {
+     "n": 56,
+     "median": -0.0026,
+     "frac_pos": 0.196
+    }
+   },
+   "hybrid_r*": {
+    "median_ba": 0.7902,
+    "vs_em": {
+     "n": 56,
+     "median": 0.0022,
+     "frac_pos": 0.768
+    },
+    "vs_hpj": {
+     "n": 56,
+     "median": -0.003,
+     "frac_pos": 0.179
+    }
+   },
+   "hybridD_r*": {
+    "median_ba": 0.7943,
+    "vs_em": {
+     "n": 56,
+     "median": 0.0045,
+     "frac_pos": 0.875
+    },
+    "vs_hpj": {
+     "n": 56,
+     "median": -0.0015,
+     "frac_pos": 0.375
+    }
+   },
+   "hpj_cov01": {
+    "median_ba": 0.7972,
+    "vs_em": {
+     "n": 56,
+     "median": 0.0053,
+     "frac_pos": 0.821
+    },
+    "vs_hpj": {
+     "n": 56,
+     "median": 0.0,
+     "frac_pos": 0.0
+    }
+   },
+   "hybridD_lw": {
+    "median_ba": 0.8006,
+    "vs_em": {
+     "n": 56,
+     "median": 0.0094,
+     "frac_pos": 0.857
+    },
+    "vs_hpj": {
+     "n": 56,
+     "median": 0.0007,
+     "frac_pos": 0.625
+    }
+   }
+  },
+  "testA_priorB": {
+   "em_cov01": {
+    "median_ba": 0.698,
+    "vs_em": {
+     "n": 112,
+     "median": 0.0,
+     "frac_pos": 0.0
+    },
+    "vs_hpj": {
+     "n": 112,
+     "median": -0.0296,
+     "frac_pos": 0.098
+    }
+   },
+   "mllr_cov01": {
+    "median_ba": 0.7095,
+    "vs_em": {
+     "n": 112,
+     "median": 0.0051,
+     "frac_pos": 0.562
+    },
+    "vs_hpj": {
+     "n": 112,
+     "median": -0.0169,
+     "frac_pos": 0.17
+    }
+   },
+   "phys_nom": {
+    "median_ba": 0.7056,
+    "vs_em": {
+     "n": 112,
+     "median": 0.007,
+     "frac_pos": 0.714
+    },
+    "vs_hpj": {
+     "n": 112,
+     "median": -0.017,
+     "frac_pos": 0.107
+    }
+   },
+   "learn_r*": {
+    "median_ba": 0.7115,
+    "vs_em": {
+     "n": 112,
+     "median": 0.0088,
+     "frac_pos": 0.938
+    },
+    "vs_hpj": {
+     "n": 112,
+     "median": -0.017,
+     "frac_pos": 0.125
+    }
+   },
+   "hybrid_r*": {
+    "median_ba": 0.7075,
+    "vs_em": {
+     "n": 112,
+     "median": 0.0081,
+     "frac_pos": 0.929
+    },
+    "vs_hpj": {
+     "n": 112,
+     "median": -0.0163,
+     "frac_pos": 0.17
+    }
+   },
+   "hybridD_r*": {
+    "median_ba": 0.7246,
+    "vs_em": {
+     "n": 112,
+     "median": 0.0211,
+     "frac_pos": 0.982
+    },
+    "vs_hpj": {
+     "n": 112,
+     "median": -0.0048,
+     "frac_pos": 0.295
+    }
+   },
+   "hpj_cov01": {
+    "median_ba": 0.729,
+    "vs_em": {
+     "n": 112,
+     "median": 0.0296,
+     "frac_pos": 0.902
+    },
+    "vs_hpj": {
+     "n": 112,
+     "median": 0.0,
+     "frac_pos": 0.0
+    }
+   },
+   "hybridD_lw": {
+    "median_ba": 0.7362,
+    "vs_em": {
+     "n": 112,
+     "median": 0.0336,
+     "frac_pos": 0.982
+    },
+    "vs_hpj": {
+     "n": 112,
+     "median": 0.0078,
+     "frac_pos": 0.812
+    }
+   }
+  }
+ },
+ "T2_curve": {
+  "testB88_priorA": {
+   "3": {
+    "hpj_cov01": 0.7807,
+    "hybridD_r*": 0.7956,
+    "hybridD_lw": 0.7924,
+    "hpj_cov01@draws01": 0.7828,
+    "hybridD_lw@draws01": 0.7941,
+    "j2_hpj_wc_cond@draws01": 0.7894,
+    "k1_decay_cond@draws01": 0.7882,
+    "n_common_draws01": 28,
+    "lw_vs_hpj@4draws": {
+     "n": 28,
+     "median": 0.0072,
+     "frac_pos": 0.821
+    },
+    "lw_vs_j2@draws01": {
+     "n": 28,
+     "median": 0.0012,
+     "frac_pos": 0.607
+    },
+    "lw_vs_k1@draws01": {
+     "n": 28,
+     "median": 0.0028,
+     "frac_pos": 0.679
+    }
+   },
+   "5": {
+    "hpj_cov01": 0.7879,
+    "hybridD_r*": 0.7955,
+    "hybridD_lw": 0.7963,
+    "hpj_cov01@draws01": 0.7865,
+    "hybridD_lw@draws01": 0.7961,
+    "j2_hpj_wc_cond@draws01": 0.7928,
+    "k1_decay_cond@draws01": 0.7941,
+    "n_common_draws01": 28,
+    "lw_vs_hpj@4draws": {
+     "n": 28,
+     "median": 0.0033,
+     "frac_pos": 0.857
+    },
+    "lw_vs_j2@draws01": {
+     "n": 28,
+     "median": 0.0,
+     "frac_pos": 0.5
+    },
+    "lw_vs_k1@draws01": {
+     "n": 28,
+     "median": -0.0001,
+     "frac_pos": 0.5
+    }
+   },
+   "8": {
+    "hpj_cov01": 0.796,
+    "hybridD_r*": 0.7943,
+    "hybridD_lw": 0.7992,
+    "hpj_cov01@draws01": 0.796,
+    "hybridD_lw@draws01": 0.7992,
+    "j2_hpj_wc_cond@draws01": 0.7982,
+    "k1_decay_cond@draws01": 0.8029,
+    "n_common_draws01": 28,
+    "lw_vs_hpj@4draws": {
+     "n": 28,
+     "median": 0.0004,
+     "frac_pos": 0.643
+    },
+    "lw_vs_j2@draws01": {
+     "n": 28,
+     "median": -0.0011,
+     "frac_pos": 0.429
+    },
+    "lw_vs_k1@draws01": {
+     "n": 28,
+     "median": -0.0006,
+     "frac_pos": 0.429
+    }
+   }
+  },
+  "testA_priorB": {
+   "3": {
+    "hpj_cov01": 0.7195,
+    "hybridD_r*": 0.7326,
+    "hybridD_lw": 0.7344,
+    "hpj_cov01@draws01": 0.7183,
+    "hybridD_lw@draws01": 0.7324,
+    "j2_hpj_wc_cond@draws01": 0.7243,
+    "k1_decay_cond@draws01": 0.7292,
+    "n_common_draws01": 56,
+    "lw_vs_hpj@4draws": {
+     "n": 56,
+     "median": 0.013,
+     "frac_pos": 0.929
+    },
+    "lw_vs_j2@draws01": {
+     "n": 56,
+     "median": 0.0064,
+     "frac_pos": 0.714
+    },
+    "lw_vs_k1@draws01": {
+     "n": 56,
+     "median": 0.003,
+     "frac_pos": 0.732
+    }
+   },
+   "5": {
+    "hpj_cov01": 0.7212,
+    "hybridD_r*": 0.7341,
+    "hybridD_lw": 0.7366,
+    "hpj_cov01@draws01": 0.7224,
+    "hybridD_lw@draws01": 0.734,
+    "j2_hpj_wc_cond@draws01": 0.7259,
+    "k1_decay_cond@draws01": 0.7273,
+    "n_common_draws01": 56,
+    "lw_vs_hpj@4draws": {
+     "n": 56,
+     "median": 0.011,
+     "frac_pos": 0.946
+    },
+    "lw_vs_j2@draws01": {
+     "n": 56,
+     "median": 0.0028,
+     "frac_pos": 0.661
+    },
+    "lw_vs_k1@draws01": {
+     "n": 56,
+     "median": 0.002,
+     "frac_pos": 0.625
+    }
+   },
+   "8": {
+    "hpj_cov01": 0.7228,
+    "hybridD_r*": 0.7221,
+    "hybridD_lw": 0.7362,
+    "hpj_cov01@draws01": 0.7228,
+    "hybridD_lw@draws01": 0.7362,
+    "j2_hpj_wc_cond@draws01": 0.7318,
+    "k1_decay_cond@draws01": 0.7338,
+    "n_common_draws01": 56,
+    "lw_vs_hpj@4draws": {
+     "n": 56,
+     "median": 0.0086,
+     "frac_pos": 0.875
+    },
+    "lw_vs_j2@draws01": {
+     "n": 56,
+     "median": 0.0028,
+     "frac_pos": 0.679
+    },
+    "lw_vs_k1@draws01": {
+     "n": 56,
+     "median": 0.0011,
+     "frac_pos": 0.554
+    }
+   }
+  }
+ },
+ "T3_confirm_split": {
+  "testB88_priorA": {
+   "em_cov01": {
+    "n": 37,
+    "median": 0.007,
+    "frac_pos": 0.838
+   },
+   "hpj_cov01": {
+    "n": 37,
+    "median": 0.0002,
+    "frac_pos": 0.514
+   },
+   "j2_hpj_wc_cond": {
+    "n": 37,
+    "median": -0.0015,
+    "frac_pos": 0.432
+   },
+   "k1_decay_cond": {
+    "n": 37,
+    "median": -0.0008,
+    "frac_pos": 0.405
+   },
+   "k4_net_cond": {
+    "n": 37,
+    "median": -0.0011,
+    "frac_pos": 0.405
+   }
+  },
+  "testA_priorB": {
+   "em_cov01": {
+    "n": 74,
+    "median": 0.0375,
+    "frac_pos": 0.973
+   },
+   "hpj_cov01": {
+    "n": 74,
+    "median": 0.0075,
+    "frac_pos": 0.797
+   },
+   "j2_hpj_wc_cond": {
+    "n": 74,
+    "median": 0.0024,
+    "frac_pos": 0.595
+   },
+   "k1_decay_cond": {
+    "n": 74,
+    "median": 0.0007,
+    "frac_pos": 0.554
+   },
+   "k4_net_cond": {
+    "n": 74,
+    "median": 0.0016,
+    "frac_pos": 0.622
+   }
+  }
+ },
+ "T3_n": {
+  "testB88_priorA": 37,
+  "testA_priorB": 74
+ },
+ "T4_coef": {
+  "testB88_priorA": {
+   "spearman": 0.694,
+   "n": 5880
+  },
+  "testA_priorB": {
+   "spearman": 0.689,
+   "n": 11760
+  }
+ }
+}

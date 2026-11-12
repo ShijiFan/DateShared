@@ -1,0 +1,263 @@
+{
+ "n_main": {
+  "A37": 56,
+  "A88": 56,
+  "B88": 56
+ },
+ "n_curve": {
+  "A37": 28,
+  "A88": 28,
+  "B88": 28
+ },
+ "repro": {
+  "hpj_vs_P5": 0.0,
+  "hybridD_vs_P9": 0.0,
+  "curve_vs_P9": {
+   "k3_0|hpj_cov01": 0.0,
+   "k3_0|hybridD_r*": 0.0,
+   "k3_1|hpj_cov01": 0.0,
+   "k3_1|hybridD_r*": 0.0,
+   "k5_0|hpj_cov01": 0.0,
+   "k5_0|hybridD_r*": 0.0,
+   "k5_1|hpj_cov01": 0.0,
+   "k5_1|hybridD_r*": 0.0,
+   "k8_all|hpj_cov01": 0.0,
+   "k8_all|hybridD_r*": 0.0
+  }
+ },
+ "median_ba_main": {
+  "testB88_priorA": {
+   "hpj_cov01": 0.7972,
+   "hybridD_r*": 0.7943,
+   "hybridD_lw": 0.8006
+  },
+  "testA_priorB": {
+   "hpj_cov01": 0.729,
+   "hybridD_r*": 0.7246,
+   "hybridD_lw": 0.7362
+  }
+ },
+ "median_ba_curve": {
+  "testB88_priorA": {
+   "k3|hpj_cov01": 0.7807,
+   "k3|hybridD_r*": 0.7956,
+   "k3|hybridD_lw": 0.7924,
+   "k5|hpj_cov01": 0.7879,
+   "k5|hybridD_r*": 0.7955,
+   "k5|hybridD_lw": 0.7963,
+   "k8_all|hpj_cov01": 0.796,
+   "k8_all|hybridD_r*": 0.7943,
+   "k8_all|hybridD_lw": 0.7992
+  },
+  "testA_priorB": {
+   "k3|hpj_cov01": 0.7195,
+   "k3|hybridD_r*": 0.7326,
+   "k3|hybridD_lw": 0.7344,
+   "k5|hpj_cov01": 0.7212,
+   "k5|hybridD_r*": 0.7341,
+   "k5|hybridD_lw": 0.7366,
+   "k8_all|hpj_cov01": 0.7228,
+   "k8_all|hybridD_r*": 0.7221,
+   "k8_all|hybridD_lw": 0.7362
+  }
+ },
+ "criteria": {
+  "K1 long archive hybridD_lw vs hpj (main, all transfers)": {
+   "res": {
+    "testB88_priorA": {
+     "n": 56,
+     "median": 0.0007,
+     "mean": 0.0021,
+     "frac_pos": 0.625
+    },
+    "testA_priorB": {
+     "n": 112,
+     "median": 0.0078,
+     "mean": 0.0094,
+     "frac_pos": 0.812
+    }
+   },
+   "pass_": true
+  },
+  "K2 short archive k3 hybridD_lw vs hpj": {
+   "res": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0072,
+     "mean": 0.0107,
+     "frac_pos": 0.821
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.013,
+     "mean": 0.0181,
+     "frac_pos": 0.929
+    }
+   },
+   "pass_": true
+  },
+  "K3 hybridD_lw(k3) vs hpj(k8)": {
+   "res": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.0027,
+     "mean": -0.0044,
+     "frac_pos": 0.25
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0031,
+     "mean": 0.0049,
+     "frac_pos": 0.625
+    }
+   },
+   "pass_": true
+  }
+ },
+ "report": {
+  "K4 hybridD_lw vs hybridD_r*": {
+   "k3": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0003,
+     "mean": 0.0007,
+     "frac_pos": 0.536
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0018,
+     "mean": 0.0036,
+     "frac_pos": 0.643
+    }
+   },
+   "k5": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0014,
+     "mean": 0.0031,
+     "frac_pos": 0.607
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0041,
+     "mean": 0.0074,
+     "frac_pos": 0.714
+    }
+   },
+   "k8_all": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0024,
+     "mean": 0.005,
+     "frac_pos": 0.714
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0118,
+     "mean": 0.0171,
+     "frac_pos": 0.821
+    }
+   },
+   "main": {
+    "testB88_priorA": {
+     "n": 56,
+     "median": 0.0026,
+     "mean": 0.0053,
+     "frac_pos": 0.732
+    },
+    "testA_priorB": {
+     "n": 112,
+     "median": 0.0116,
+     "mean": 0.0153,
+     "frac_pos": 0.821
+    }
+   }
+  },
+  "k5 hybridD_lw vs hpj": {
+   "testB88_priorA": {
+    "n": 28,
+    "median": 0.0033,
+    "mean": 0.008,
+    "frac_pos": 0.857
+   },
+   "testA_priorB": {
+    "n": 56,
+    "median": 0.011,
+    "mean": 0.0159,
+    "frac_pos": 0.946
+   }
+  },
+  "curve k8 hybridD_lw vs hpj": {
+   "testB88_priorA": {
+    "n": 28,
+    "median": 0.0004,
+    "mean": 0.0027,
+    "frac_pos": 0.643
+   },
+   "testA_priorB": {
+    "n": 56,
+    "median": 0.0086,
+    "mean": 0.0115,
+    "frac_pos": 0.875
+   }
+  },
+  "per-draw k3 hybridD_lw vs hpj": {
+   "0": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0036,
+     "mean": 0.0096,
+     "frac_pos": 0.786
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0121,
+     "mean": 0.0206,
+     "frac_pos": 0.875
+    }
+   },
+   "1": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0031,
+     "mean": 0.0114,
+     "frac_pos": 0.75
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0116,
+     "mean": 0.0172,
+     "frac_pos": 0.911
+    }
+   },
+   "2": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0043,
+     "mean": 0.0113,
+     "frac_pos": 0.75
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0084,
+     "mean": 0.0169,
+     "frac_pos": 0.821
+    }
+   },
+   "3": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0033,
+     "mean": 0.0105,
+     "frac_pos": 0.75
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0101,
+     "mean": 0.0176,
+     "frac_pos": 0.929
+    }
+   }
+  }
+ }
+}

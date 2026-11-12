@@ -1,0 +1,51 @@
+{
+ "n": {
+  "A37": 28,
+  "A88": 28,
+  "B88": 28
+ },
+ "lr": {
+  "raincoat": 0.0005,
+  "sfuda": 0.001
+ },
+ "testB88_priorA": {
+  "median_ba": {
+   "raincoat_off": 0.6355,
+   "sfuda_tuned": 0.6572,
+   "dl_raw": 0.6583,
+   "dl_adabn": 0.7366,
+   "dl_dann": 0.8127,
+   "proposed": 0.7992
+  },
+  "proposed - raincoat_off": {
+   "median": 0.1623,
+   "frac_pos": 1.0,
+   "n": 28
+  },
+  "proposed - sfuda_tuned": {
+   "median": 0.1384,
+   "frac_pos": 0.929,
+   "n": 28
+  }
+ },
+ "testA_priorB": {
+  "median_ba": {
+   "raincoat_off": 0.5406,
+   "sfuda_tuned": 0.658,
+   "dl_raw": 0.66,
+   "dl_adabn": 0.714,
+   "dl_dann": 0.7538,
+   "proposed": 0.7362
+  },
+  "proposed - raincoat_off": {
+   "median": 0.1908,
+   "frac_pos": 1.0,
+   "n": 56
+  },
+  "proposed - sfuda_tuned": {
+   "median": 0.0579,
+   "frac_pos": 0.875,
+   "n": 56
+  }
+ }
+}

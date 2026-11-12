@@ -1,0 +1,988 @@
+{
+ "n_transfers": {
+  "A37": 56,
+  "A88": 56,
+  "B88": 56
+ },
+ "repro_vs_P5": {
+  "em_cov01": 0.0,
+  "hpj_cov01": 0.0
+ },
+ "median_ba": {
+  "testB88_priorA": {
+   "em_cov01": 0.7822,
+   "hpj_cov01": 0.7972,
+   "mllr_cov01": 0.7576,
+   "phys_nom": 0.78,
+   "phys_arch": 0.7831,
+   "learn_r*": 0.7924,
+   "hybrid_r*": 0.7902,
+   "physD_arch": 0.7867,
+   "hybridD_r*": 0.7943,
+   "hybridD_r*_mw": 0.7943,
+   "learn_r2": 0.7856,
+   "learn_r4": 0.7857,
+   "learn_r8": 0.7938,
+   "hybrid_r2": 0.7844,
+   "hybrid_r4": 0.7837,
+   "hybrid_r8": 0.7908
+  },
+  "testA_priorB": {
+   "em_cov01": 0.698,
+   "hpj_cov01": 0.729,
+   "mllr_cov01": 0.7095,
+   "phys_nom": 0.7056,
+   "phys_arch": 0.7005,
+   "learn_r*": 0.7115,
+   "hybrid_r*": 0.7075,
+   "physD_arch": 0.7055,
+   "hybridD_r*": 0.7246,
+   "hybridD_r*_mw": 0.7254,
+   "learn_r2": 0.7023,
+   "learn_r4": 0.7115,
+   "learn_r8": 0.7264,
+   "hybrid_r2": 0.7033,
+   "hybrid_r4": 0.7075,
+   "hybrid_r8": 0.7264
+  }
+ },
+ "vs_hpj_cov01": {
+  "em_cov01": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0053,
+    "mean": -0.0191,
+    "frac_pos": 0.179
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0296,
+    "mean": -0.0315,
+    "frac_pos": 0.098
+   }
+  },
+  "mllr_cov01": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0217,
+    "mean": -0.0309,
+    "frac_pos": 0.089
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0169,
+    "mean": -0.0248,
+    "frac_pos": 0.17
+   }
+  },
+  "phys_nom": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0094,
+    "mean": -0.0196,
+    "frac_pos": 0.054
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.017,
+    "mean": -0.0237,
+    "frac_pos": 0.107
+   }
+  },
+  "phys_arch": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0053,
+    "mean": -0.019,
+    "frac_pos": 0.161
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0272,
+    "mean": -0.0295,
+    "frac_pos": 0.116
+   }
+  },
+  "learn_r*": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0026,
+    "mean": -0.0102,
+    "frac_pos": 0.196
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.017,
+    "mean": -0.0207,
+    "frac_pos": 0.125
+   }
+  },
+  "hybrid_r*": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.003,
+    "mean": -0.0093,
+    "frac_pos": 0.179
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0163,
+    "mean": -0.0203,
+    "frac_pos": 0.17
+   }
+  },
+  "physD_arch": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0031,
+    "mean": -0.0125,
+    "frac_pos": 0.179
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0188,
+    "mean": -0.0228,
+    "frac_pos": 0.179
+   }
+  },
+  "hybridD_r*": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0015,
+    "mean": -0.0032,
+    "frac_pos": 0.375
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0048,
+    "mean": -0.006,
+    "frac_pos": 0.295
+   }
+  },
+  "hybridD_r*_mw": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0013,
+    "mean": -0.0014,
+    "frac_pos": 0.482
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0042,
+    "mean": -0.005,
+    "frac_pos": 0.33
+   }
+  },
+  "learn_r2": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0041,
+    "mean": -0.0167,
+    "frac_pos": 0.214
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0253,
+    "mean": -0.0276,
+    "frac_pos": 0.116
+   }
+  },
+  "learn_r4": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0039,
+    "mean": -0.0155,
+    "frac_pos": 0.196
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.017,
+    "mean": -0.0207,
+    "frac_pos": 0.125
+   }
+  },
+  "learn_r8": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0019,
+    "mean": -0.0059,
+    "frac_pos": 0.286
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0003,
+    "mean": -0.0007,
+    "frac_pos": 0.5
+   }
+  },
+  "hybrid_r2": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0042,
+    "mean": -0.0162,
+    "frac_pos": 0.196
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0248,
+    "mean": -0.0272,
+    "frac_pos": 0.116
+   }
+  },
+  "hybrid_r4": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0041,
+    "mean": -0.0149,
+    "frac_pos": 0.161
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0163,
+    "mean": -0.0203,
+    "frac_pos": 0.17
+   }
+  },
+  "hybrid_r8": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0029,
+    "mean": -0.008,
+    "frac_pos": 0.214
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": -0.0022,
+    "mean": -0.0034,
+    "frac_pos": 0.339
+   }
+  }
+ },
+ "vs_em_cov01": {
+  "hpj_cov01": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0053,
+    "mean": 0.0191,
+    "frac_pos": 0.821
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0296,
+    "mean": 0.0315,
+    "frac_pos": 0.902
+   }
+  },
+  "mllr_cov01": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": -0.0109,
+    "mean": -0.0118,
+    "frac_pos": 0.321
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0051,
+    "mean": 0.0067,
+    "frac_pos": 0.562
+   }
+  },
+  "phys_nom": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0002,
+    "mean": -0.0005,
+    "frac_pos": 0.518
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.007,
+    "mean": 0.0078,
+    "frac_pos": 0.714
+   }
+  },
+  "phys_arch": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0001,
+    "mean": 0.0001,
+    "frac_pos": 0.536
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0015,
+    "mean": 0.002,
+    "frac_pos": 0.723
+   }
+  },
+  "learn_r*": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.002,
+    "mean": 0.009,
+    "frac_pos": 0.786
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0088,
+    "mean": 0.0108,
+    "frac_pos": 0.938
+   }
+  },
+  "hybrid_r*": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0022,
+    "mean": 0.0098,
+    "frac_pos": 0.768
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0081,
+    "mean": 0.0112,
+    "frac_pos": 0.929
+   }
+  },
+  "physD_arch": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0016,
+    "mean": 0.0066,
+    "frac_pos": 0.696
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0047,
+    "mean": 0.0087,
+    "frac_pos": 0.902
+   }
+  },
+  "hybridD_r*": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0045,
+    "mean": 0.0159,
+    "frac_pos": 0.875
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0211,
+    "mean": 0.0255,
+    "frac_pos": 0.982
+   }
+  },
+  "hybridD_r*_mw": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0078,
+    "mean": 0.0177,
+    "frac_pos": 0.821
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0229,
+    "mean": 0.0265,
+    "frac_pos": 0.938
+   }
+  },
+  "learn_r2": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0007,
+    "mean": 0.0024,
+    "frac_pos": 0.643
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0027,
+    "mean": 0.0039,
+    "frac_pos": 0.786
+   }
+  },
+  "learn_r4": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0009,
+    "mean": 0.0036,
+    "frac_pos": 0.714
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0088,
+    "mean": 0.0108,
+    "frac_pos": 0.938
+   }
+  },
+  "learn_r8": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0033,
+    "mean": 0.0133,
+    "frac_pos": 0.804
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0255,
+    "mean": 0.0308,
+    "frac_pos": 0.866
+   }
+  },
+  "hybrid_r2": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0005,
+    "mean": 0.0029,
+    "frac_pos": 0.714
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0031,
+    "mean": 0.0043,
+    "frac_pos": 0.804
+   }
+  },
+  "hybrid_r4": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.001,
+    "mean": 0.0042,
+    "frac_pos": 0.732
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0081,
+    "mean": 0.0112,
+    "frac_pos": 0.929
+   }
+  },
+  "hybrid_r8": {
+   "testB88_priorA": {
+    "n": 56,
+    "median": 0.0026,
+    "mean": 0.0111,
+    "frac_pos": 0.768
+   },
+   "testA_priorB": {
+    "n": 112,
+    "median": 0.0232,
+    "mean": 0.0281,
+    "frac_pos": 0.929
+   }
+  }
+ },
+ "curve_vs_hpj": {
+  "hybrid_r*": {
+   "k3": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0003,
+     "mean": -0.0001,
+     "frac_pos": 0.536
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0006,
+     "mean": -0.0004,
+     "frac_pos": 0.464
+    }
+   },
+   "k5": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.0001,
+     "mean": -0.0025,
+     "frac_pos": 0.429
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0129,
+     "mean": -0.0152,
+     "frac_pos": 0.179
+    }
+   },
+   "k8_all": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.0034,
+     "mean": -0.0079,
+     "frac_pos": 0.143
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0177,
+     "mean": -0.0203,
+     "frac_pos": 0.179
+    }
+   }
+  },
+  "hybridD_r*": {
+   "k3": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0027,
+     "mean": 0.011,
+     "frac_pos": 0.714
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0105,
+     "mean": 0.0144,
+     "frac_pos": 0.821
+    }
+   },
+   "k5": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0019,
+     "mean": 0.0049,
+     "frac_pos": 0.714
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0069,
+     "mean": 0.0086,
+     "frac_pos": 0.732
+    }
+   },
+   "k8_all": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.0015,
+     "mean": -0.0023,
+     "frac_pos": 0.321
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0047,
+     "mean": -0.0056,
+     "frac_pos": 0.321
+    }
+   }
+  },
+  "phys_arch": {
+   "k3": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.0024,
+     "mean": -0.0044,
+     "frac_pos": 0.393
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0126,
+     "mean": -0.0155,
+     "frac_pos": 0.214
+    }
+   },
+   "k5": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.0025,
+     "mean": -0.0088,
+     "frac_pos": 0.286
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0167,
+     "mean": -0.0207,
+     "frac_pos": 0.143
+    }
+   },
+   "k8_all": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.0054,
+     "mean": -0.0179,
+     "frac_pos": 0.143
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0272,
+     "mean": -0.029,
+     "frac_pos": 0.143
+    }
+   }
+  },
+  "learn_r*": {
+   "k3": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0006,
+     "mean": 0.0015,
+     "frac_pos": 0.536
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0,
+     "mean": 0.0023,
+     "frac_pos": 0.5
+    }
+   },
+   "k5": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.0013,
+     "mean": -0.005,
+     "frac_pos": 0.393
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0103,
+     "mean": -0.0136,
+     "frac_pos": 0.179
+    }
+   },
+   "k8_all": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.003,
+     "mean": -0.0081,
+     "frac_pos": 0.214
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0173,
+     "mean": -0.0204,
+     "frac_pos": 0.161
+    }
+   }
+  }
+ },
+ "curve_median_ba": {
+  "testB88_priorA": {
+   "k3_0|hpj_cov01": 0.7876,
+   "k3_0|phys_arch": 0.7851,
+   "k3_0|learn_r*": 0.79,
+   "k3_0|hybrid_r*": 0.7842,
+   "k3_0|hybridD_r*": 0.7944,
+   "k3_1|hpj_cov01": 0.7806,
+   "k3_1|phys_arch": 0.784,
+   "k3_1|learn_r*": 0.79,
+   "k3_1|hybrid_r*": 0.7908,
+   "k3_1|hybridD_r*": 0.7951,
+   "k5_0|hpj_cov01": 0.7838,
+   "k5_0|phys_arch": 0.7829,
+   "k5_0|learn_r*": 0.7889,
+   "k5_0|hybrid_r*": 0.791,
+   "k5_0|hybridD_r*": 0.7953,
+   "k5_1|hpj_cov01": 0.7938,
+   "k5_1|phys_arch": 0.7846,
+   "k5_1|learn_r*": 0.7888,
+   "k5_1|hybrid_r*": 0.79,
+   "k5_1|hybridD_r*": 0.7941,
+   "k8_all|hpj_cov01": 0.796,
+   "k8_all|phys_arch": 0.7846,
+   "k8_all|learn_r*": 0.7924,
+   "k8_all|hybrid_r*": 0.7894,
+   "k8_all|hybridD_r*": 0.7943,
+   "k3|hybrid_r*": 0.7852,
+   "k5|hybrid_r*": 0.7898,
+   "k3|hybridD_r*": 0.7954,
+   "k5|hybridD_r*": 0.7937,
+   "k3|phys_arch": 0.7846,
+   "k5|phys_arch": 0.7827,
+   "k3|learn_r*": 0.7889,
+   "k5|learn_r*": 0.7872,
+   "k3|hpj_cov01": 0.7828,
+   "k5|hpj_cov01": 0.7865
+  },
+  "testA_priorB": {
+   "k3_0|hpj_cov01": 0.719,
+   "k3_0|phys_arch": 0.6974,
+   "k3_0|learn_r*": 0.7133,
+   "k3_0|hybrid_r*": 0.7134,
+   "k3_0|hybridD_r*": 0.7362,
+   "k3_1|hpj_cov01": 0.7216,
+   "k3_1|phys_arch": 0.6976,
+   "k3_1|learn_r*": 0.7163,
+   "k3_1|hybrid_r*": 0.7115,
+   "k3_1|hybridD_r*": 0.7338,
+   "k5_0|hpj_cov01": 0.7229,
+   "k5_0|phys_arch": 0.6975,
+   "k5_0|learn_r*": 0.7047,
+   "k5_0|hybrid_r*": 0.7021,
+   "k5_0|hybridD_r*": 0.7327,
+   "k5_1|hpj_cov01": 0.7192,
+   "k5_1|phys_arch": 0.6974,
+   "k5_1|learn_r*": 0.7061,
+   "k5_1|hybrid_r*": 0.7053,
+   "k5_1|hybridD_r*": 0.7291,
+   "k8_all|hpj_cov01": 0.7228,
+   "k8_all|phys_arch": 0.6975,
+   "k8_all|learn_r*": 0.7083,
+   "k8_all|hybrid_r*": 0.7055,
+   "k8_all|hybridD_r*": 0.7221,
+   "k3|hybrid_r*": 0.7125,
+   "k5|hybrid_r*": 0.7032,
+   "k3|hybridD_r*": 0.7336,
+   "k5|hybridD_r*": 0.7319,
+   "k3|phys_arch": 0.6975,
+   "k5|phys_arch": 0.6974,
+   "k3|learn_r*": 0.7155,
+   "k5|learn_r*": 0.7048,
+   "k3|hpj_cov01": 0.7183,
+   "k5|hpj_cov01": 0.7224
+  }
+ },
+ "criteria": {
+  "H1 hybrid_r* vs hpj_cov01": {
+   "res": {
+    "testB88_priorA": {
+     "n": 56,
+     "median": -0.003,
+     "mean": -0.0093,
+     "frac_pos": 0.179
+    },
+    "testA_priorB": {
+     "n": 112,
+     "median": -0.0163,
+     "mean": -0.0203,
+     "frac_pos": 0.17
+    }
+   },
+   "grade": "worse"
+  },
+  "H1D hybridD_r* vs hpj_cov01": {
+   "res": {
+    "testB88_priorA": {
+     "n": 56,
+     "median": -0.0015,
+     "mean": -0.0032,
+     "frac_pos": 0.375
+    },
+    "testA_priorB": {
+     "n": 112,
+     "median": -0.0048,
+     "mean": -0.006,
+     "frac_pos": 0.295
+    }
+   },
+   "grade": "worse"
+  },
+  "H3 phys_nom vs em_cov01": {
+   "res": {
+    "testB88_priorA": {
+     "n": 56,
+     "median": 0.0002,
+     "mean": -0.0005,
+     "frac_pos": 0.518
+    },
+    "testA_priorB": {
+     "n": 112,
+     "median": 0.007,
+     "mean": 0.0078,
+     "frac_pos": 0.714
+    }
+   },
+   "pass_": false
+  },
+  "H4 hybrid_r* vs mllr_cov01": {
+   "res": {
+    "testB88_priorA": {
+     "n": 56,
+     "median": 0.0177,
+     "mean": 0.0216,
+     "frac_pos": 0.768
+    },
+    "testA_priorB": {
+     "n": 112,
+     "median": 0.0048,
+     "mean": 0.0045,
+     "frac_pos": 0.536
+    }
+   },
+   "pass_": false
+  },
+  "H5 hybridD_mw vs hybridD": {
+   "res": {
+    "testB88_priorA": {
+     "n": 56,
+     "median": 0.0009,
+     "mean": 0.0018,
+     "frac_pos": 0.643
+    },
+    "testA_priorB": {
+     "n": 112,
+     "median": 0.0003,
+     "mean": 0.001,
+     "frac_pos": 0.527
+    }
+   },
+   "pass_": false
+  },
+  "H2 short archive hybrid_r* - hpj": {
+   "k3": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0003,
+     "mean": -0.0001,
+     "frac_pos": 0.536
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0006,
+     "mean": -0.0004,
+     "frac_pos": 0.464
+    }
+   },
+   "k8": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.0034,
+     "mean": -0.0079,
+     "frac_pos": 0.143
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0177,
+     "mean": -0.0203,
+     "frac_pos": 0.179
+    }
+   },
+   "pass_": false
+  },
+  "(report) H2 analogue for hybridD": {
+   "k3": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": 0.0027,
+     "mean": 0.011,
+     "frac_pos": 0.714
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": 0.0105,
+     "mean": 0.0144,
+     "frac_pos": 0.821
+    }
+   },
+   "k8": {
+    "testB88_priorA": {
+     "n": 28,
+     "median": -0.0015,
+     "mean": -0.0023,
+     "frac_pos": 0.321
+    },
+    "testA_priorB": {
+     "n": 56,
+     "median": -0.0047,
+     "mean": -0.0056,
+     "frac_pos": 0.321
+    }
+   },
+   "pass_": true
+  }
+ },
+ "delta_rmse_bs": {
+  "testB88_priorA": {
+   "em_cov01": {
+    "small<=2.5%": 0.288,
+    "mid": 0.293,
+    "large>=15%": 0.17
+   },
+   "hpj_cov01": {
+    "small<=2.5%": 0.72,
+    "mid": 0.331,
+    "large>=15%": 0.181
+   },
+   "hybridD_r*": {
+    "small<=2.5%": 0.451,
+    "mid": 0.306,
+    "large>=15%": 0.157
+   },
+   "hybrid_r*": {
+    "small<=2.5%": 0.459,
+    "mid": 0.297,
+    "large>=15%": 0.157
+   },
+   "phys_nom": {
+    "small<=2.5%": 0.873,
+    "mid": 0.39,
+    "large>=15%": 0.192
+   }
+  },
+  "testA_priorB": {
+   "em_cov01": {
+    "small<=2.5%": 0.749,
+    "mid": 0.662,
+    "large>=15%": 0.207
+   },
+   "hpj_cov01": {
+    "small<=2.5%": 0.846,
+    "mid": 0.814,
+    "large>=15%": 0.226
+   },
+   "hybridD_r*": {
+    "small<=2.5%": 0.629,
+    "mid": 0.623,
+    "large>=15%": 0.202
+   },
+   "hybrid_r*": {
+    "small<=2.5%": 0.708,
+    "mid": 0.637,
+    "large>=15%": 0.203
+   },
+   "phys_nom": {
+    "small<=2.5%": 0.959,
+    "mid": 0.87,
+    "large>=15%": 0.207
+   }
+  }
+ },
+ "coef_weather": {
+  "testB88_priorA": {
+   "spearman_w_dapi": 0.694,
+   "spearman_w_dlnapi": 0.709,
+   "n": 5880,
+   "spearman_transfer_meanw_seasonapi": 0.381
+  },
+  "testA_priorB": {
+   "spearman_w_dapi": 0.689,
+   "spearman_w_dlnapi": 0.702,
+   "n": 11760,
+   "spearman_transfer_meanw_seasonapi": 0.761
+  }
+ },
+ "tau_days": {
+  "testB88_priorA": {
+   "50%": {
+    "0.0": -0.86,
+    "1.0": -0.43,
+    "2.0": -0.05,
+    "3.0": -0.32,
+    "4.0": -0.12,
+    "5.0": -0.93,
+    "6.0": 0.33
+   },
+   "std": {
+    "0.0": 8.49,
+    "1.0": 8.41,
+    "2.0": 6.21,
+    "3.0": 6.38,
+    "4.0": 7.61,
+    "5.0": 5.92,
+    "6.0": 6.78
+   }
+  },
+  "testA_priorB": {
+   "50%": {
+    "0.0": -2.25,
+    "1.0": -2.77,
+    "2.0": -0.01,
+    "3.0": -0.33,
+    "4.0": -0.48,
+    "5.0": -0.74,
+    "6.0": 0.07
+   },
+   "std": {
+    "0.0": 8.11,
+    "1.0": 7.78,
+    "2.0": 5.11,
+    "3.0": 4.6,
+    "4.0": 5.56,
+    "5.0": 4.47,
+    "6.0": 4.15
+   }
+  }
+ }
+}

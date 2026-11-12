@@ -1,0 +1,16 @@
+{
+ "transfer": "B88 2019->2020 fold 0",
+ "n_source": 9544,
+ "n_target": 1687,
+ "D": 45,
+ "device": "cuda",
+ "gpu": "NVIDIA GeForce RTX 5080",
+ "proposed_mapem_s": 0.7066501000081189,
+ "proposed_mapem_ba": 0.8228784033099438,
+ "resynth_tempcnn_s": 2.5136343000049237,
+ "resynth_dann_s": 3.103926900002989,
+ "tempcnn_source_s": 1.58514369999466,
+ "dann_s": 3.0348188999923877,
+ "sfuda_s": 3.5965849999920465,
+ "raincoat_srs_s": 69.44163490000938
+}

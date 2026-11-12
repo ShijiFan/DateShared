@@ -1,0 +1,1 @@
+﻿selected lr_raincoat=0.0005 lr_sfuda=0.001

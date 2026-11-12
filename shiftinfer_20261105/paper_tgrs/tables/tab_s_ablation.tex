@@ -1,0 +1,25 @@
+\begin{table*}[!t]
+\caption{Structure ablation (Dutch sites, all transfers, full archive of the other site). Median BA and paired median difference of the proposed prior (date-shared basis + full-rank residual) to each variant (share of transfers in which the proposed prior is better).}
+\label{tab:s_ablation}
+\centering\footnotesize
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+ & \multicolumn{2}{c}{Test site B} & \multicolumn{2}{c}{Test site A}\\
+\cmidrule(lr){2-3}\cmidrule(l){4-5}
+Prior & BA & $\Delta$ & BA & $\Delta$\\
+\midrule
+Prior-free mean-shift EM & 0.782 & $+0.009$ (86\%) & 0.698 & $+0.034$ (98\%)\\
+Hand physics basis, nominal scales (no archive) & 0.780 & $+0.010$ (89\%) & 0.706 & $+0.026$ (99\%)\\
+Hand physics basis, archive scales & 0.783 & $+0.008$ (86\%) & 0.701 & $+0.032$ (98\%)\\
+Learned modes only (PPCA, $r^*$) & 0.792 & $+0.005$ (82\%) & 0.712 & $+0.024$ (93\%)\\
+Hand physics + learned modes & 0.790 & $+0.005$ (82\%) & 0.708 & $+0.022$ (94\%)\\
+Date-shared basis, archive scales & 0.787 & $+0.006$ (86\%) & 0.705 & $+0.028$ (96\%)\\
+Date-shared basis + low-rank residual & 0.794 & $+0.003$ (73\%) & 0.725 & $+0.012$ (82\%)\\
+Date-shared basis + low-rank residual + rain mean & 0.794 & $+0.002$ (64\%) & 0.725 & $+0.010$ (82\%)\\
+MLLR-type shared affine shift & 0.758 & $+0.023$ (91\%) & 0.710 & $+0.025$ (90\%)\\
+Empirical full-rank prior & 0.797 & $+0.001$ (62\%) & 0.729 & $+0.008$ (81\%)\\
+\midrule
+\textbf{Proposed} & 0.801 & -- & 0.736 & --\\
+\bottomrule
+\end{tabular}
+\end{table*}

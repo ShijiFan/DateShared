@@ -1,0 +1,35 @@
+{
+ "A": {
+  "vv": "D:\\sar_data\\multiyear\\A\\aligned\\2019\\T88\\VV_2019-07-05.tif",
+  "vh": "D:\\sar_data\\multiyear\\A\\aligned\\2019\\T88\\VH_2019-07-05.tif",
+  "crs": "EPSG:32632",
+  "extent_km": [
+   293.96,
+   332.6,
+   5761.64,
+   5807.56
+  ]
+ },
+ "B": {
+  "vv": "D:\\sar_data\\multiyear\\B\\aligned\\2019\\T88\\VV_2019-07-05.tif",
+  "vh": "D:\\sar_data\\multiyear\\B\\aligned\\2019\\T88\\VH_2019-07-05.tif",
+  "crs": "EPSG:32632",
+  "extent_km": [
+   334.64,
+   369.48,
+   5846.24,
+   5886.2
+  ]
+ },
+ "FR": {
+  "vv": "D:\\sar_data\\fr_a\\FR\\aligned\\2019\\T59\\VV_2019-07-03.tif",
+  "vh": "D:\\sar_data\\fr_a\\FR\\aligned\\2019\\T59\\VH_2019-07-03.tif",
+  "crs": "EPSG:32631",
+  "extent_km": [
+   322.76,
+   363.56,
+   5490.32,
+   5530.4
+  ]
+ }
+}

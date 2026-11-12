@@ -1,0 +1,9 @@
+cand,group,src,tgt,split,ba,tag
+em_cov01,B88,2017,2018,search,0.7222739301496028,cands_r1
+hpj_cov01,B88,2017,2018,search,0.7731093051645657,cands_r1
+rep_hybridD,B88,2017,2018,search,0.7715465049133147,cands_r1
+rep_hybridD_mw,B88,2017,2018,search,0.7885310901516457,cands_r1
+c1_wcA,B88,2017,2018,search,0.7884868070943434,cands_r1
+c2_mwp9_refit,B88,2017,2018,search,0.7886546284111289,cands_r1
+c3_wcA_cohrain,B88,2017,2018,search,0.7883266797497759,cands_r1
+c4_sepVVVH,B88,2017,2018,search,0.7711285290845151,cands_r1

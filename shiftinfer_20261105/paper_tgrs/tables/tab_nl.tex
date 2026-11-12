@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\caption{Cross-year transfer on the two Dutch sites (all 168 ordered year pairs; archive from the other site without the source and target years). Median balanced accuracy (BA) and paired median difference to the proposed method (share of transfers in which the proposed method is better).}
+\label{tab:nl}
+\centering\footnotesize
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+ & \multicolumn{2}{c}{Test site B} & \multicolumn{2}{c}{Test site A}\\
+\cmidrule(lr){2-3}\cmidrule(l){4-5}
+Method & BA & $\Delta$ & BA & $\Delta$\\
+\midrule
+No adaptation (TempCNN) & 0.667 & $+0.114$ (98\%) & 0.657 & $+0.057$ (81\%)\\
+AdaBN (TempCNN) & 0.739 & $+0.041$ (88\%) & 0.707 & $+0.018$ (69\%)\\
+DANN (TempCNN) & 0.807 & $-0.017$ (32\%) & 0.752 & $-0.013$ (33\%)\\
+Mean-shift EM + cov.\ update & 0.782 & $+0.003$ (77\%) & 0.698 & $+0.026$ (97\%)\\
+MLLR-type shared affine shift & 0.758 & $+0.017$ (86\%) & 0.710 & $+0.021$ (88\%)\\
+Empirical full-rank prior (EMAP-type) & 0.786 & $+0.005$ (75\%) & 0.719 & $+0.011$ (86\%)\\
+Date-shared basis + low-rank residual & 0.792 & $+0.000$ (54\%) & 0.726 & $+0.005$ (72\%)\\
+\textbf{Date-shared prior (proposed)} & 0.794 & -- & 0.733 & --\\
+\bottomrule
+\end{tabular}
+\end{table*}

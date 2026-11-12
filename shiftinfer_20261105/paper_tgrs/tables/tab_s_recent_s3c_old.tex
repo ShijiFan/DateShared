@@ -1,0 +1,20 @@
+\begin{table}[!t]
+\caption{Recent adaptation methods run with the official code (RAINCOAT) or the published algorithm (SFUDA), learning rate tuned uniformly on four fixed development transfers (RAINCOAT 0.0005, SFUDA 0.001); every other transfer (84). Median BA.}
+\label{tab:s_recent}
+\centering\footnotesize
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Method & Test site B & Test site A\\
+\midrule
+TempCNN, no adaptation & 0.658 & 0.660\\
+RAINCOAT \cite{He2023} & 0.635 & 0.541\\
+SFUDA \cite{Mohammadi2024} & 0.657 & 0.658\\
+AdaBN & 0.737 & 0.714\\
+DANN & 0.813 & 0.754\\
+Proposed & 0.799 & 0.736\\
+\midrule
+Tuning grid mean BA, RAINCOAT & \multicolumn{2}{c}{0.548 / 0.524 / 0.481}\\
+Tuning grid mean BA, SFUDA & \multicolumn{2}{c}{0.634 / 0.624 / 0.625}\\
+\bottomrule
+\end{tabular}
+\end{table}

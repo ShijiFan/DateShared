@@ -1,0 +1,17 @@
+\begin{table*}[!t]
+\caption{The estimated shifts as a classifier-agnostic plug-in (Dutch sites; archive without the source and target years). Median BA when the source season is left unchanged, shifted by the prior-free EM estimate, or shifted by the proposed estimate before training. $^{\dagger}$Every other transfer (84).}
+\label{tab:plugin}
+\centering\footnotesize
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+ & \multicolumn{3}{c}{Test site B} & \multicolumn{3}{c}{Test site A}\\
+\cmidrule(lr){2-4}\cmidrule(l){5-7}
+Classifier & none & EM & proposed & none & EM & proposed\\
+\midrule
+HGB & 0.625 & 0.744 & 0.773 & 0.527 & 0.605 & 0.666\\
+RF$^{\dagger}$ & 0.648 & 0.773 & 0.798 & 0.568 & 0.607 & 0.669\\
+TempCNN & 0.667 & 0.784 & 0.810 & 0.657 & 0.674 & 0.731\\
+DANN (TempCNN) & 0.807 & -- & 0.819 & 0.752 & -- & 0.738\\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,72 @@
+joint prior: tasks 336 complete 240 dim 315
+fit B rep_hybridD {} r 5 2 s
+fit B rep_hybridD_mw {"thw": [5.4346, 5.6359, 0.0172, 1.3097, 15.1746]} r 5 5 s
+fit B c1_wcA {"th": [5.8921, 6.1238, -0.0001, 1.385, 16.3734]} r 5 10 s
+fit B c2_mwp9_refit {"thw": [5.4346, 5.6359, 0.0172, 1.3097, 15.1746]} r 5 15 s
+fit B c3_wcA_cohrain {"th": [6.0017, 6.2367, -0.1656, 1.3501, 17.5952, 0.026]} r 5 16 s
+fit B c4_sepVVVH {} r 5 17 s
+A37 2017 -> 2018 {'em_cov01': 0.556, 'hpj_cov01': 0.617, 'rep_hybridD': 0.577, 'rep_hybridD_mw': 0.611, 'c1_wcA': 0.607, 'c2_mwp9_refit': 0.606, 'c3_wcA_cohrain': 0.607, 'c4_sepVVVH': 0.58} 136 s
+A37 2017 -> 2021 {'em_cov01': 0.775, 'hpj_cov01': 0.784, 'rep_hybridD': 0.782, 'rep_hybridD_mw': 0.78, 'c1_wcA': 0.781, 'c2_mwp9_refit': 0.781, 'c3_wcA_cohrain': 0.781, 'c4_sepVVVH': 0.78} 259 s
+A37 2017 -> 2025 {'em_cov01': 0.697, 'hpj_cov01': 0.745, 'rep_hybridD': 0.71, 'rep_hybridD_mw': 0.706, 'c1_wcA': 0.707, 'c2_mwp9_refit': 0.706, 'c3_wcA_cohrain': 0.707, 'c4_sepVVVH': 0.711} 378 s
+A37 2018 -> 2020 {'em_cov01': 0.725, 'hpj_cov01': 0.776, 'rep_hybridD': 0.748, 'rep_hybridD_mw': 0.772, 'c1_wcA': 0.772, 'c2_mwp9_refit': 0.77, 'c3_wcA_cohrain': 0.77, 'c4_sepVVVH': 0.748} 497 s
+A37 2018 -> 2024 {'em_cov01': 0.56, 'hpj_cov01': 0.574, 'rep_hybridD': 0.584, 'rep_hybridD_mw': 0.592, 'c1_wcA': 0.59, 'c2_mwp9_refit': 0.591, 'c3_wcA_cohrain': 0.591, 'c4_sepVVVH': 0.581} 607 s
+A37 2019 -> 2018 {'em_cov01': 0.623, 'hpj_cov01': 0.727, 'rep_hybridD': 0.662, 'rep_hybridD_mw': 0.637, 'c1_wcA': 0.658, 'c2_mwp9_refit': 0.638, 'c3_wcA_cohrain': 0.639, 'c4_sepVVVH': 0.67} 724 s
+A37 2019 -> 2022 {'em_cov01': 0.667, 'hpj_cov01': 0.707, 'rep_hybridD': 0.701, 'rep_hybridD_mw': 0.705, 'c1_wcA': 0.706, 'c2_mwp9_refit': 0.706, 'c3_wcA_cohrain': 0.706, 'c4_sepVVVH': 0.703} 824 s
+A37 2020 -> 2017 {'em_cov01': 0.739, 'hpj_cov01': 0.755, 'rep_hybridD': 0.754, 'rep_hybridD_mw': 0.748, 'c1_wcA': 0.751, 'c2_mwp9_refit': 0.748, 'c3_wcA_cohrain': 0.752, 'c4_sepVVVH': 0.757} 947 s
+A37 2020 -> 2021 {'em_cov01': 0.722, 'hpj_cov01': 0.706, 'rep_hybridD': 0.747, 'rep_hybridD_mw': 0.749, 'c1_wcA': 0.749, 'c2_mwp9_refit': 0.751, 'c3_wcA_cohrain': 0.748, 'c4_sepVVVH': 0.746} 1067 s
+A37 2020 -> 2025 {'em_cov01': 0.754, 'hpj_cov01': 0.768, 'rep_hybridD': 0.772, 'rep_hybridD_mw': 0.778, 'c1_wcA': 0.779, 'c2_mwp9_refit': 0.779, 'c3_wcA_cohrain': 0.778, 'c4_sepVVVH': 0.772} 1187 s
+A37 2021 -> 2019 {'em_cov01': 0.773, 'hpj_cov01': 0.782, 'rep_hybridD': 0.78, 'rep_hybridD_mw': 0.776, 'c1_wcA': 0.776, 'c2_mwp9_refit': 0.776, 'c3_wcA_cohrain': 0.777, 'c4_sepVVVH': 0.78} 1307 s
+A37 2021 -> 2024 {'em_cov01': 0.603, 'hpj_cov01': 0.623, 'rep_hybridD': 0.661, 'rep_hybridD_mw': 0.665, 'c1_wcA': 0.665, 'c2_mwp9_refit': 0.664, 'c3_wcA_cohrain': 0.665, 'c4_sepVVVH': 0.663} 1424 s
+A37 2022 -> 2018 {'em_cov01': 0.735, 'hpj_cov01': 0.731, 'rep_hybridD': 0.744, 'rep_hybridD_mw': 0.744, 'c1_wcA': 0.743, 'c2_mwp9_refit': 0.744, 'c3_wcA_cohrain': 0.743, 'c4_sepVVVH': 0.744} 1521 s
+A37 2022 -> 2021 {'em_cov01': 0.716, 'hpj_cov01': 0.715, 'rep_hybridD': 0.73, 'rep_hybridD_mw': 0.731, 'c1_wcA': 0.731, 'c2_mwp9_refit': 0.731, 'c3_wcA_cohrain': 0.731, 'c4_sepVVVH': 0.726} 1617 s
+A37 2024 -> 2017 {'em_cov01': 0.704, 'hpj_cov01': 0.692, 'rep_hybridD': 0.711, 'rep_hybridD_mw': 0.711, 'c1_wcA': 0.712, 'c2_mwp9_refit': 0.711, 'c3_wcA_cohrain': 0.712, 'c4_sepVVVH': 0.711} 1738 s
+A37 2024 -> 2020 {'em_cov01': 0.699, 'hpj_cov01': 0.73, 'rep_hybridD': 0.704, 'rep_hybridD_mw': 0.719, 'c1_wcA': 0.718, 'c2_mwp9_refit': 0.719, 'c3_wcA_cohrain': 0.718, 'c4_sepVVVH': 0.706} 1857 s
+A37 2024 -> 2025 {'em_cov01': 0.737, 'hpj_cov01': 0.733, 'rep_hybridD': 0.737, 'rep_hybridD_mw': 0.737, 'c1_wcA': 0.736, 'c2_mwp9_refit': 0.737, 'c3_wcA_cohrain': 0.737, 'c4_sepVVVH': 0.736} 1974 s
+A37 2025 -> 2019 {'em_cov01': 0.733, 'hpj_cov01': 0.749, 'rep_hybridD': 0.747, 'rep_hybridD_mw': 0.745, 'c1_wcA': 0.745, 'c2_mwp9_refit': 0.744, 'c3_wcA_cohrain': 0.745, 'c4_sepVVVH': 0.749} 2094 s
+A37 2025 -> 2022 {'em_cov01': 0.752, 'hpj_cov01': 0.75, 'rep_hybridD': 0.759, 'rep_hybridD_mw': 0.773, 'c1_wcA': 0.772, 'c2_mwp9_refit': 0.773, 'c3_wcA_cohrain': 0.773, 'c4_sepVVVH': 0.759} 2189 s
+A88 2017 -> 2018 {'em_cov01': 0.567, 'hpj_cov01': 0.636, 'rep_hybridD': 0.59, 'rep_hybridD_mw': 0.595, 'c1_wcA': 0.596, 'c2_mwp9_refit': 0.594, 'c3_wcA_cohrain': 0.596, 'c4_sepVVVH': 0.589} 2286 s
+A88 2017 -> 2021 {'em_cov01': 0.67, 'hpj_cov01': 0.733, 'rep_hybridD': 0.705, 'rep_hybridD_mw': 0.716, 'c1_wcA': 0.717, 'c2_mwp9_refit': 0.718, 'c3_wcA_cohrain': 0.717, 'c4_sepVVVH': 0.706} 2387 s
+A88 2017 -> 2025 {'em_cov01': 0.65, 'hpj_cov01': 0.694, 'rep_hybridD': 0.667, 'rep_hybridD_mw': 0.678, 'c1_wcA': 0.677, 'c2_mwp9_refit': 0.678, 'c3_wcA_cohrain': 0.677, 'c4_sepVVVH': 0.665} 2479 s
+A88 2018 -> 2020 {'em_cov01': 0.71, 'hpj_cov01': 0.773, 'rep_hybridD': 0.753, 'rep_hybridD_mw': 0.745, 'c1_wcA': 0.745, 'c2_mwp9_refit': 0.744, 'c3_wcA_cohrain': 0.745, 'c4_sepVVVH': 0.75} 2596 s
+A88 2018 -> 2024 {'em_cov01': 0.533, 'hpj_cov01': 0.588, 'rep_hybridD': 0.539, 'rep_hybridD_mw': 0.583, 'c1_wcA': 0.581, 'c2_mwp9_refit': 0.583, 'c3_wcA_cohrain': 0.581, 'c4_sepVVVH': 0.539} 2705 s
+A88 2019 -> 2018 {'em_cov01': 0.674, 'hpj_cov01': 0.737, 'rep_hybridD': 0.695, 'rep_hybridD_mw': 0.671, 'c1_wcA': 0.67, 'c2_mwp9_refit': 0.669, 'c3_wcA_cohrain': 0.67, 'c4_sepVVVH': 0.697} 2820 s
+A88 2019 -> 2022 {'em_cov01': 0.771, 'hpj_cov01': 0.786, 'rep_hybridD': 0.782, 'rep_hybridD_mw': 0.787, 'c1_wcA': 0.787, 'c2_mwp9_refit': 0.787, 'c3_wcA_cohrain': 0.788, 'c4_sepVVVH': 0.783} 2930 s
+A88 2020 -> 2017 {'em_cov01': 0.664, 'hpj_cov01': 0.677, 'rep_hybridD': 0.674, 'rep_hybridD_mw': 0.674, 'c1_wcA': 0.675, 'c2_mwp9_refit': 0.675, 'c3_wcA_cohrain': 0.674, 'c4_sepVVVH': 0.676} 3019 s
+A88 2020 -> 2021 {'em_cov01': 0.685, 'hpj_cov01': 0.712, 'rep_hybridD': 0.703, 'rep_hybridD_mw': 0.711, 'c1_wcA': 0.711, 'c2_mwp9_refit': 0.711, 'c3_wcA_cohrain': 0.711, 'c4_sepVVVH': 0.703} 3128 s
+A88 2020 -> 2025 {'em_cov01': 0.754, 'hpj_cov01': 0.776, 'rep_hybridD': 0.77, 'rep_hybridD_mw': 0.77, 'c1_wcA': 0.77, 'c2_mwp9_refit': 0.77, 'c3_wcA_cohrain': 0.77, 'c4_sepVVVH': 0.77} 3234 s
+A88 2021 -> 2019 {'em_cov01': 0.754, 'hpj_cov01': 0.76, 'rep_hybridD': 0.759, 'rep_hybridD_mw': 0.759, 'c1_wcA': 0.76, 'c2_mwp9_refit': 0.76, 'c3_wcA_cohrain': 0.76, 'c4_sepVVVH': 0.76} 3342 s
+A88 2021 -> 2024 {'em_cov01': 0.564, 'hpj_cov01': 0.597, 'rep_hybridD': 0.592, 'rep_hybridD_mw': 0.612, 'c1_wcA': 0.614, 'c2_mwp9_refit': 0.614, 'c3_wcA_cohrain': 0.613, 'c4_sepVVVH': 0.592} 3446 s
+A88 2022 -> 2018 {'em_cov01': 0.751, 'hpj_cov01': 0.761, 'rep_hybridD': 0.758, 'rep_hybridD_mw': 0.759, 'c1_wcA': 0.759, 'c2_mwp9_refit': 0.759, 'c3_wcA_cohrain': 0.759, 'c4_sepVVVH': 0.758} 3554 s
+A88 2022 -> 2021 {'em_cov01': 0.653, 'hpj_cov01': 0.711, 'rep_hybridD': 0.701, 'rep_hybridD_mw': 0.696, 'c1_wcA': 0.697, 'c2_mwp9_refit': 0.697, 'c3_wcA_cohrain': 0.697, 'c4_sepVVVH': 0.7} 3662 s
+A88 2024 -> 2017 {'em_cov01': 0.581, 'hpj_cov01': 0.612, 'rep_hybridD': 0.613, 'rep_hybridD_mw': 0.605, 'c1_wcA': 0.605, 'c2_mwp9_refit': 0.604, 'c3_wcA_cohrain': 0.605, 'c4_sepVVVH': 0.612} 3750 s
+A88 2024 -> 2020 {'em_cov01': 0.59, 'hpj_cov01': 0.686, 'rep_hybridD': 0.665, 'rep_hybridD_mw': 0.663, 'c1_wcA': 0.662, 'c2_mwp9_refit': 0.663, 'c3_wcA_cohrain': 0.664, 'c4_sepVVVH': 0.668} 3859 s
+A88 2024 -> 2025 {'em_cov01': 0.68, 'hpj_cov01': 0.704, 'rep_hybridD': 0.702, 'rep_hybridD_mw': 0.694, 'c1_wcA': 0.693, 'c2_mwp9_refit': 0.693, 'c3_wcA_cohrain': 0.694, 'c4_sepVVVH': 0.702} 3963 s
+A88 2025 -> 2019 {'em_cov01': 0.711, 'hpj_cov01': 0.754, 'rep_hybridD': 0.748, 'rep_hybridD_mw': 0.75, 'c1_wcA': 0.75, 'c2_mwp9_refit': 0.75, 'c3_wcA_cohrain': 0.75, 'c4_sepVVVH': 0.748} 4075 s
+A88 2025 -> 2022 {'em_cov01': 0.785, 'hpj_cov01': 0.793, 'rep_hybridD': 0.79, 'rep_hybridD_mw': 0.791, 'c1_wcA': 0.79, 'c2_mwp9_refit': 0.791, 'c3_wcA_cohrain': 0.79, 'c4_sepVVVH': 0.79} 4182 s
+joint prior: tasks 672 complete 468 dim 315
+fit A rep_hybridD {} r 9 4187 s
+fit A rep_hybridD_mw {"thw": [3.3579, 3.4106, -0.0062, 0.9489, 7.234]} r 9 4190 s
+fit A c1_wcA {"th": [3.27, 3.3203, 0.0009, 0.9208, 7.1092]} r 9 4198 s
+fit A c2_mwp9_refit {"thw": [3.3579, 3.4106, -0.0062, 0.9489, 7.234]} r 9 4205 s
+fit A c3_wcA_cohrain {"th": [3.3188, 3.3703, -0.1023, 0.9407, 7.1589, 0.03]} r 9 4208 s
+fit A c4_sepVVVH {} r 9 4210 s
+B88 2017 -> 2018 {'em_cov01': 0.722, 'hpj_cov01': 0.773, 'rep_hybridD': 0.772, 'rep_hybridD_mw': 0.789, 'c1_wcA': 0.788, 'c2_mwp9_refit': 0.789, 'c3_wcA_cohrain': 0.788, 'c4_sepVVVH': 0.771} 4257 s
+B88 2017 -> 2021 {'em_cov01': 0.828, 'hpj_cov01': 0.829, 'rep_hybridD': 0.83, 'rep_hybridD_mw': 0.819, 'c1_wcA': 0.819, 'c2_mwp9_refit': 0.819, 'c3_wcA_cohrain': 0.819, 'c4_sepVVVH': 0.83} 4304 s
+B88 2017 -> 2025 {'em_cov01': 0.782, 'hpj_cov01': 0.788, 'rep_hybridD': 0.794, 'rep_hybridD_mw': 0.793, 'c1_wcA': 0.793, 'c2_mwp9_refit': 0.793, 'c3_wcA_cohrain': 0.793, 'c4_sepVVVH': 0.795} 4345 s
+B88 2018 -> 2020 {'em_cov01': 0.808, 'hpj_cov01': 0.805, 'rep_hybridD': 0.811, 'rep_hybridD_mw': 0.812, 'c1_wcA': 0.811, 'c2_mwp9_refit': 0.812, 'c3_wcA_cohrain': 0.811, 'c4_sepVVVH': 0.811} 4397 s
+B88 2018 -> 2024 {'em_cov01': 0.722, 'hpj_cov01': 0.721, 'rep_hybridD': 0.721, 'rep_hybridD_mw': 0.728, 'c1_wcA': 0.727, 'c2_mwp9_refit': 0.727, 'c3_wcA_cohrain': 0.727, 'c4_sepVVVH': 0.719} 4443 s
+B88 2019 -> 2018 {'em_cov01': 0.754, 'hpj_cov01': 0.763, 'rep_hybridD': 0.758, 'rep_hybridD_mw': 0.77, 'c1_wcA': 0.77, 'c2_mwp9_refit': 0.77, 'c3_wcA_cohrain': 0.77, 'c4_sepVVVH': 0.759} 4495 s
+B88 2019 -> 2022 {'em_cov01': 0.828, 'hpj_cov01': 0.839, 'rep_hybridD': 0.834, 'rep_hybridD_mw': 0.836, 'c1_wcA': 0.836, 'c2_mwp9_refit': 0.836, 'c3_wcA_cohrain': 0.836, 'c4_sepVVVH': 0.835} 4545 s
+B88 2020 -> 2017 {'em_cov01': 0.801, 'hpj_cov01': 0.798, 'rep_hybridD': 0.799, 'rep_hybridD_mw': 0.8, 'c1_wcA': 0.8, 'c2_mwp9_refit': 0.8, 'c3_wcA_cohrain': 0.799, 'c4_sepVVVH': 0.799} 4590 s
+B88 2020 -> 2021 {'em_cov01': 0.66, 'hpj_cov01': 0.768, 'rep_hybridD': 0.763, 'rep_hybridD_mw': 0.731, 'c1_wcA': 0.728, 'c2_mwp9_refit': 0.731, 'c3_wcA_cohrain': 0.729, 'c4_sepVVVH': 0.763} 4641 s
+B88 2020 -> 2025 {'em_cov01': 0.799, 'hpj_cov01': 0.803, 'rep_hybridD': 0.803, 'rep_hybridD_mw': 0.805, 'c1_wcA': 0.805, 'c2_mwp9_refit': 0.805, 'c3_wcA_cohrain': 0.804, 'c4_sepVVVH': 0.803} 4689 s
+B88 2021 -> 2019 {'em_cov01': 0.78, 'hpj_cov01': 0.782, 'rep_hybridD': 0.784, 'rep_hybridD_mw': 0.782, 'c1_wcA': 0.782, 'c2_mwp9_refit': 0.782, 'c3_wcA_cohrain': 0.782, 'c4_sepVVVH': 0.784} 4741 s
+B88 2021 -> 2024 {'em_cov01': 0.747, 'hpj_cov01': 0.762, 'rep_hybridD': 0.758, 'rep_hybridD_mw': 0.76, 'c1_wcA': 0.76, 'c2_mwp9_refit': 0.76, 'c3_wcA_cohrain': 0.76, 'c4_sepVVVH': 0.755} 4788 s
+B88 2022 -> 2018 {'em_cov01': 0.786, 'hpj_cov01': 0.798, 'rep_hybridD': 0.793, 'rep_hybridD_mw': 0.793, 'c1_wcA': 0.793, 'c2_mwp9_refit': 0.793, 'c3_wcA_cohrain': 0.793, 'c4_sepVVVH': 0.794} 4839 s
+B88 2022 -> 2021 {'em_cov01': 0.734, 'hpj_cov01': 0.789, 'rep_hybridD': 0.776, 'rep_hybridD_mw': 0.773, 'c1_wcA': 0.767, 'c2_mwp9_refit': 0.773, 'c3_wcA_cohrain': 0.766, 'c4_sepVVVH': 0.777} 4889 s
+B88 2024 -> 2017 {'em_cov01': 0.8, 'hpj_cov01': 0.787, 'rep_hybridD': 0.8, 'rep_hybridD_mw': 0.784, 'c1_wcA': 0.783, 'c2_mwp9_refit': 0.784, 'c3_wcA_cohrain': 0.784, 'c4_sepVVVH': 0.8} 4933 s
+B88 2024 -> 2020 {'em_cov01': 0.774, 'hpj_cov01': 0.779, 'rep_hybridD': 0.794, 'rep_hybridD_mw': 0.781, 'c1_wcA': 0.781, 'c2_mwp9_refit': 0.781, 'c3_wcA_cohrain': 0.781, 'c4_sepVVVH': 0.795} 4986 s
+B88 2024 -> 2025 {'em_cov01': 0.804, 'hpj_cov01': 0.824, 'rep_hybridD': 0.81, 'rep_hybridD_mw': 0.823, 'c1_wcA': 0.823, 'c2_mwp9_refit': 0.823, 'c3_wcA_cohrain': 0.823, 'c4_sepVVVH': 0.811} 5034 s
+B88 2025 -> 2019 {'em_cov01': 0.733, 'hpj_cov01': 0.796, 'rep_hybridD': 0.786, 'rep_hybridD_mw': 0.809, 'c1_wcA': 0.81, 'c2_mwp9_refit': 0.809, 'c3_wcA_cohrain': 0.809, 'c4_sepVVVH': 0.784} 5087 s
+B88 2025 -> 2022 {'em_cov01': 0.845, 'hpj_cov01': 0.85, 'rep_hybridD': 0.847, 'rep_hybridD_mw': 0.847, 'c1_wcA': 0.847, 'c2_mwp9_refit': 0.847, 'c3_wcA_cohrain': 0.847, 'c4_sepVVVH': 0.847} 5136 s
+DONE cands_r1 search 5136 s

@@ -1,0 +1,99 @@
+{
+ "n": 56,
+ "median_ba": {
+  "dl_raw": 0.7122,
+  "dl_adabn": 0.7522,
+  "dl_dann": 0.7878,
+  "tcn_em": 0.7558,
+  "tcn_lw": 0.7822,
+  "dann_lw": 0.7909,
+  "lw_all": 0.7958,
+  "hgb_lw": 0.7062,
+  "em_cov01": 0.777
+ },
+ "pairs": {
+  "lw_all - dl_dann": {
+   "n": 56,
+   "median": 0.0004,
+   "frac_pos": 0.518
+  },
+  "lw_all - dl_adabn": {
+   "n": 56,
+   "median": 0.026,
+   "frac_pos": 0.732
+  },
+  "lw_all - dl_raw": {
+   "n": 56,
+   "median": 0.0647,
+   "frac_pos": 0.946
+  },
+  "tcn_lw - tcn_em": {
+   "n": 56,
+   "median": 0.0324,
+   "frac_pos": 0.964
+  },
+  "tcn_lw - dl_raw": {
+   "n": 56,
+   "median": 0.0696,
+   "frac_pos": 0.929
+  },
+  "tcn_lw - dl_dann": {
+   "n": 56,
+   "median": -0.0004,
+   "frac_pos": 0.5
+  },
+  "dann_lw - dl_dann": {
+   "n": 56,
+   "median": 0.0074,
+   "frac_pos": 0.607
+  },
+  "dann_lw - lw_all": {
+   "n": 56,
+   "median": 0.0066,
+   "frac_pos": 0.661
+  },
+  "hgb_lw - dl_dann": {
+   "n": 56,
+   "median": -0.0727,
+   "frac_pos": 0.018
+  }
+ },
+ "by_severity": {
+  "severe": {
+   "dann_lw - dl_dann": {
+    "n": 19,
+    "median": 0.0203,
+    "frac_pos": 0.579
+   },
+   "lw_all - dl_dann": {
+    "n": 19,
+    "median": 0.0149,
+    "frac_pos": 0.684
+   }
+  },
+  "mid": {
+   "dann_lw - dl_dann": {
+    "n": 18,
+    "median": 0.0079,
+    "frac_pos": 0.722
+   },
+   "lw_all - dl_dann": {
+    "n": 18,
+    "median": -0.0123,
+    "frac_pos": 0.278
+   }
+  },
+  "mild": {
+   "dann_lw - dl_dann": {
+    "n": 19,
+    "median": 0.0061,
+    "frac_pos": 0.526
+   },
+   "lw_all - dl_dann": {
+    "n": 19,
+    "median": 0.0008,
+    "frac_pos": 0.579
+   }
+  }
+ }
+}

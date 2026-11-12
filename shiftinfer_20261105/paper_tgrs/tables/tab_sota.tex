@@ -1,0 +1,25 @@
+\begin{table*}[!t]
+\caption{Comparison with deep and recent unsupervised adaptation methods. Median balanced accuracy over transfers and paired median
+difference of the proposed method to each method (share of transfers in which the proposed method is better). All methods except
+RAINCOAT-SRS use the same temporal CNN, normalisation, folds and 400-m exclusion; the proposed method trains it on the source season
+shifted by the estimated shifts. Dutch sites: every other ordered season pair (28 and 56 transfers); France: all 56.
+$^{\ddagger}$Self-attention encoder of \cite{Gackstetter2025} on the official RAINCOAT code; checkpoint selected on held-out source parcels.}
+\label{tab:sota}
+\centering\footnotesize
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+ & \multicolumn{2}{c}{Site B} & \multicolumn{2}{c}{Site A} & \multicolumn{2}{c}{Pays de Caux}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(l){6-7}
+Method & BA & $\Delta$ & BA & $\Delta$ & BA & $\Delta$\\
+\midrule
+No adaptation & 0.658 & $+0.143$ (96\%) & 0.660 & $+0.057$ (89\%) & 0.712 & $+0.070$ (93\%)\\
+AdaBN \cite{Li2018adabn} & 0.737 & $+0.062$ (93\%) & 0.714 & $+0.025$ (70\%) & 0.752 & $+0.029$ (77\%)\\
+DANN \cite{Ganin2016} & 0.813 & $-0.001$ (50\%) & \textbf{0.754} & $-0.011$ (34\%) & 0.788 & $0.000$ (50\%)\\
+SFUDA \cite{Mohammadi2024} & 0.657 & $+0.149$ (96\%) & 0.658 & $+0.060$ (89\%) & 0.709 & $+0.066$ (95\%)\\
+RAINCOAT-SRS$^{\ddagger}$ \cite{Gackstetter2025} & 0.779 & $+0.027$ (68\%) & 0.693 & $+0.047$ (93\%) & 0.721 & $+0.059$ (88\%)\\
+\midrule
+\textbf{Proposed (TempCNN)} & 0.810 & -- & 0.732 & -- & 0.782 & --\\
+\textbf{Proposed + DANN} & \textbf{0.816} & $-0.007$ (14\%) & 0.738 & $-0.009$ (20\%) & \textbf{0.791} & $-0.005$ (27\%)\\
+\bottomrule
+\end{tabular}
+\end{table*}

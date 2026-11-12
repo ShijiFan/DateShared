@@ -1,0 +1,18 @@
+code_cultu,class,note
+PPH,PermGrass,prairie permanente (2015-2022) / prairie de 6 ans ou plus (2023-); groupe 18
+PTR,TempGrass,prairie temporaire de 5 ans ou moins / de moins de 5 ans; groupe 19
+MIS,Maize,mais (hors mais doux) grain et ensilage; groupe 2
+PTC,Potato,pomme de terre (de consommation); groupe 25
+BTN,Beet,betterave non fourragere; groupe 24
+BTH,WinterCereal,ble tendre d'hiver
+ORH,WinterCereal,orge d'hiver
+SGH,WinterCereal,seigle d'hiver
+TTH,WinterCereal,triticale d'hiver
+AVH,WinterCereal,avoine d'hiver
+BTP,SpringCereal,ble tendre de printemps
+ORP,SpringCereal,orge de printemps
+AVP,SpringCereal,avoine de printemps
+TTP,SpringCereal,triticale de printemps
+SGP,SpringCereal,seigle de printemps
+MIE,Maize,mais ensilage (2015-2022; merged into MIS from 2023) - addendum signed by user 2026-11-06
+RGA,TempGrass,ray-grass (2015-2022) - addendum signed by user 2026-11-06

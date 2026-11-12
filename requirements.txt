@@ -1,0 +1,16 @@
+# CPU environment ("sar", Python 3.11.16): Gaussian framework, HGB/RF, France confirmation, summaries, tables, figures,
+# and data preparation. Versions as installed when the experiments were run.
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.5
+scikit-learn==1.9.0
+matplotlib==3.11.1
+pyarrow==25.0.1          # parquet task rows (p1_rows_<grp>.parquet)
+requests==2.34.2
+# data preparation only
+geopandas==1.1.4
+rasterio==1.4.4
+shapely==2.1.2
+pyproj==3.7.2
+pyogrio==0.13.0
+hyp3_sdk==7.7.7          # ASF HyP3 job submission / download (needs your own NASA Earthdata login in ~/.netrc)

@@ -1,0 +1,9 @@
+cand,group,src,tgt,split,ba,tag
+em_cov01,B88,2017,2018,smoke,0.7222739301496028,cands_r2
+hpj_cov01,B88,2017,2018,smoke,0.7731093051645657,cands_r2
+j0_hpj_rep,B88,2017,2018,smoke,0.7731093051645657,cands_r2
+j1_hpj_wc,B88,2017,2018,smoke,0.7816183702346485,cands_r2
+j2_hpj_wc_cond,B88,2017,2018,smoke,0.7830016095121797,cands_r2
+j3_hpj_wccoh_cond,B88,2017,2018,smoke,0.7830478696236691,cands_r2
+j4_hpj_plusD,B88,2017,2018,smoke,0.7759487063431522,cands_r2
+j5_hpj_wc_cond_plusD,B88,2017,2018,smoke,0.7828520738475903,cands_r2

@@ -1,0 +1,13 @@
+# GPU environment ("yolo11marin", Python 3.10.19, CUDA 12.8, NVIDIA RTX 5080): TempCNN / AdaBN / DANN, RAINCOAT,
+# RAINCOAT-SRS, SFUDA, ClimID-UDA (TempCNN), timing. Versions as installed when the experiments were run.
+# torch was a nightly build (2.11.0.dev20260203+cu128) for RTX 50-series support; install a CUDA build of torch from
+# https://pytorch.org for your GPU, e.g.  pip install torch --index-url https://download.pytorch.org/whl/cu128
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib==3.10.8
+pyarrow==25.0.1
+psutil==7.2.2            # memory guard of s3d_q1.py
+torch>=2.7
+# RAINCOAT itself is not pip-installable: clone https://github.com/mims-harvard/Raincoat (see README)

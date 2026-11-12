@@ -1,0 +1,234 @@
+gewascode,dutch_crop_name,assigned_8class,parcels_2024,parcels_2025,classification_rule
+174,Bloemzaden open grond,Other,18,16,DEFAULT_OTHER
+233,"Tarwe, winter-",WinterCereal,263,461,EXPLICIT_LOOKUP
+234,"Tarwe, zomer-",SpringCereal,212,364,EXPLICIT_LOOKUP
+235,"Gerst, winter-",WinterCereal,198,192,EXPLICIT_LOOKUP
+236,"Gerst, zomer-",SpringCereal,407,342,EXPLICIT_LOOKUP
+238,Haver,SpringCereal,46,34,EXPLICIT_LOOKUP
+241,Kapucijners (en grauwe erwten),Other,1,0,DEFAULT_OTHER
+242,"Bonen, bruine-",Other,1,4,DEFAULT_OTHER
+244,"Erwten, groene/gele (groen te oogsten)",Other,22,13,DEFAULT_OTHER
+256,"Bieten, suiker-",Beet,317,292,EXPLICIT_LOOKUP
+257,"Bieten, voeder-",Beet,110,99,EXPLICIT_LOOKUP
+258,Luzerne,Other,314,198,DEFAULT_OTHER
+259,"Mais, snij-",Maize,8924,8541,EXPLICIT_LOOKUP
+265,"Grasland, blijvend",PermGrass,40717,38250,EXPLICIT_LOOKUP
+266,"Grasland, tijdelijk",TempGrass,9128,8562,EXPLICIT_LOOKUP
+308,Erwten (droog te oogsten),Other,23,21,DEFAULT_OTHER
+311,"Bonen, veld- (onder andere duiven-, paarden-, wierbonen)",Other,55,34,DEFAULT_OTHER
+314,Triticale,WinterCereal,94,94,EXPLICIT_LOOKUP
+316,"Mais, korrel-",Maize,250,288,EXPLICIT_LOOKUP
+317,"Mais, corncob mix",Maize,183,132,EXPLICIT_LOOKUP
+331,"Grasland, natuurlijk. Met landbouwactiviteiten.",PermGrass,2873,2527,EXPLICIT_LOOKUP
+332,"Grasland, natuurlijk. Hoofdfunctie natuur.",PermGrass,174,197,EXPLICIT_LOOKUP
+335,Natuurterreinen (incl. heide),Other,1113,1079,DEFAULT_OTHER
+338,"Rand, liggend op bouwland en direct grenzend aan bos. Geen landbouwproductie.",Other,34,26,DEFAULT_OTHER
+343,Sloot,Other,32255,30673,DEFAULT_OTHER
+346,Tagetes erecta (Afrikaantje),Other,11,2,DEFAULT_OTHER
+347,Tagetes patula (Afrikaantje),Other,2,6,DEFAULT_OTHER
+375,Hop,Other,1,1,DEFAULT_OTHER
+382,Spelt,WinterCereal,5,4,EXPLICIT_LOOKUP
+426,"Overige groenbemesters, vlinderbloemige-",Other,50,23,DEFAULT_OTHER
+428,Gele mosterd,Other,14,7,DEFAULT_OTHER
+511,Cichorei,Other,5,13,DEFAULT_OTHER
+515,Zonnebloemen,Other,44,34,DEFAULT_OTHER
+516,Miscanthus (olifantsgras),Other,24,37,DEFAULT_OTHER
+654,Brandnetel,Other,1,1,DEFAULT_OTHER
+655,Zwarte mosterd,Other,2,1,DEFAULT_OTHER
+656,Zonnekroon,Other,1,1,DEFAULT_OTHER
+657,Drachtplanten,Other,126,126,DEFAULT_OTHER
+662,Bos (SBL-regeling),Other,3,1,DEFAULT_OTHER
+663,"Lupinen, niet bittere",Other,2,0,DEFAULT_OTHER
+665,Sojabonen,Other,2,0,DEFAULT_OTHER
+666,"Vlas, olie-. Lijnzaad niet van vezelvlas",Other,1,4,DEFAULT_OTHER
+670,Japanse haver,SpringCereal,4,7,EXPLICIT_LOOKUP
+795,Wilgenhakhout,Other,85,88,DEFAULT_OTHER
+796,Kerstbomen,Other,38,41,DEFAULT_OTHER
+802,"Wikke, bonte",Other,1,0,DEFAULT_OTHER
+803,"Wikke, voeder-",Other,1,0,DEFAULT_OTHER
+814,"Mais, suiker-",Maize,4,1,EXPLICIT_LOOKUP
+853,"Bonen, tuin- (droog te oogsten) (geen consumptie)",Other,2,0,DEFAULT_OTHER
+854,"Bonen, tuin- (groen te oogsten)",Other,3,3,DEFAULT_OTHER
+863,Bos zonder herplantplicht,Other,67,61,DEFAULT_OTHER
+944,"Hennep, vezel-",Other,77,34,DEFAULT_OTHER
+964,"Dahlia, overige bloemkwekerijgewassen",Other,1,1,DEFAULT_OTHER
+979,"Lelie, overige bloemkwekerijgewassen",Other,2,0,DEFAULT_OTHER
+991,"Overige bloemen, overige bloemkwekerijgewassen",Other,26,23,DEFAULT_OTHER
+992,"Overige bloemen, droogbloemen",Other,19,18,DEFAULT_OTHER
+997,"Dahlia, bloembollen en - knollen",Other,1,0,DEFAULT_OTHER
+998,"Gladiool, bloembollen en - knollen",Other,6,4,DEFAULT_OTHER
+1002,"Lelie, bloembollen en -knollen",Other,59,27,DEFAULT_OTHER
+1006,"Overige bloemen, bloembollen en -knollen",Other,2,3,DEFAULT_OTHER
+1019,"Valeriaan, productie",Other,0,1,DEFAULT_OTHER
+1020,"Valeriaan, zaden en opkweekmateriaal",Other,0,1,DEFAULT_OTHER
+1022,Quinoa,Other,0,2,DEFAULT_OTHER
+1023,"Pastinaak, productie",Other,3,2,DEFAULT_OTHER
+1024,"Pastinaak, zaden en opkweekmateriaal",Other,1,2,DEFAULT_OTHER
+1025,"Pioenroos, overige bloemkwekerijgewassen",Other,3,2,DEFAULT_OTHER
+1037,"Peterselie, productie",Other,0,1,DEFAULT_OTHER
+1047,Cranberry,Other,1,1,DEFAULT_OTHER
+1054,"Pioenroos, vermeerdering",Other,2,3,DEFAULT_OTHER
+1067,"Bos- en haagplanten, open grond",Other,31,22,DEFAULT_OTHER
+1068,"Buxus, open grond",Other,16,2,DEFAULT_OTHER
+1070,"Laanbomen/parkbomen, onderstammen, open grond",Other,3,3,DEFAULT_OTHER
+1071,"Laanbomen/parkbomen, opzetters, open grond",Other,34,38,DEFAULT_OTHER
+1072,"Laanbomen/parkbomen, spillen, open grond",Other,12,15,DEFAULT_OTHER
+1073,"Rozenstruiken (incl, zaailingen en onderstammen), open grond",Other,4,4,DEFAULT_OTHER
+1074,"Sierconiferen, open grond",Other,69,69,DEFAULT_OTHER
+1075,"Sierheesters en klimplanten, open grond",Other,41,32,DEFAULT_OTHER
+1076,"Trek- en besheesters, open grond",Other,8,8,DEFAULT_OTHER
+1077,"Vruchtbomen, moerbomen, open grond",Other,2,1,DEFAULT_OTHER
+1079,"Vruchtbomen, overig, open grond",Other,19,12,DEFAULT_OTHER
+1080,"Vaste planten, open grond",Other,7,8,DEFAULT_OTHER
+1081,"Bos- en haagplanten, pot- en containerveld",Other,1,1,DEFAULT_OTHER
+1082,"Buxus, pot- en containerveld",Other,8,0,DEFAULT_OTHER
+1086,"Laanbomen/parkbomen, spillen, pot- en containerveld",Other,1,1,DEFAULT_OTHER
+1088,"Sierconiferen, pot- en containerveld",Other,37,23,DEFAULT_OTHER
+1089,"Sierheesters en klimplanten, pot- en containerveld",Other,15,13,DEFAULT_OTHER
+1094,"Vaste planten, pot- en containerteelt",Other,8,16,DEFAULT_OTHER
+1095,Appels. Aangeplant lopende seizoen.,Other,4,3,DEFAULT_OTHER
+1096,Appels. Aangeplant voorafgaande aan lopende seizoen.,Other,19,19,DEFAULT_OTHER
+1097,Peren. Aangeplant lopende seizoen.,Other,1,1,DEFAULT_OTHER
+1098,Peren. Aangeplant voorafgaande aan lopende seizoen.,Other,33,41,DEFAULT_OTHER
+1099,Wijndruiven,Other,8,9,DEFAULT_OTHER
+1100,"Overige pit- en steenvruchten (zoals perziken, tafeldruiven)",Other,1,3,DEFAULT_OTHER
+1869,"Bessen, blauwe",Other,5,3,DEFAULT_OTHER
+1870,Pruimen,Other,10,12,DEFAULT_OTHER
+1872,"Kersen, zuur (opbrengst bestemd voor verwerkende industrie)",Other,1,1,DEFAULT_OTHER
+1874,"Overig kleinfruit (zoals kruisbessen, kiwi's)",Other,4,4,DEFAULT_OTHER
+1876,Snijgroen,Other,2,2,DEFAULT_OTHER
+1921,Graszoden,Other,16,14,DEFAULT_OTHER
+1922,"Koolzaad, winter (incl. boterzaad)",Other,37,53,DEFAULT_OTHER
+1923,"Koolzaad, zomer (incl. boterzaad)",Other,8,6,DEFAULT_OTHER
+1926,Agrarisch natuurmengsel,Other,1924,1982,DEFAULT_OTHER
+1927,Overige akkerbouwgewassen,Other,1,3,DEFAULT_OTHER
+1932,"Uien, poot en plant, 1e jaars",Other,16,9,DEFAULT_OTHER
+1933,"Uien, poot en plant, 2e jaars",Other,1,0,DEFAULT_OTHER
+1934,Sjalotten,Other,0,4,DEFAULT_OTHER
+1935,Maiskolvensilage,Maize,64,123,EXPLICIT_LOOKUP
+1936,"Bos, blijvend, met herplantplicht",Other,339,325,DEFAULT_OTHER
+1940,Voedselbos,Other,7,19,DEFAULT_OTHER
+1949,Aardperen,Other,1,2,DEFAULT_OTHER
+2014,"Aardappelen, consumptie",Potato,467,595,EXPLICIT_LOOKUP
+2015,"Aardappelen, poot NAK",Potato,193,182,EXPLICIT_LOOKUP
+2016,"Aardappelen, poot TBM",Potato,18,8,EXPLICIT_LOOKUP
+2017,"Aardappelen, zetmeel",Potato,202,189,EXPLICIT_LOOKUP
+2325,"Bessen, rode",Other,2,2,DEFAULT_OTHER
+2326,Frambozen,Other,3,3,DEFAULT_OTHER
+2327,Bramen,Other,2,2,DEFAULT_OTHER
+2328,"Kersen, zoet",Other,5,6,DEFAULT_OTHER
+2617,Boomgroep,Other,667,637,DEFAULT_OTHER
+2618,"Windhaag, in een perceel fruitteelt",Other,15,10,DEFAULT_OTHER
+2619,Bossingel,Other,303,293,DEFAULT_OTHER
+2620,Poel en klein historisch water,Other,617,594,DEFAULT_OTHER
+2621,Houtwal en houtsingel,Other,7887,7690,DEFAULT_OTHER
+2622,Elzensingel,Other,94,83,DEFAULT_OTHER
+2624,Knip- of scheerheg,Other,1120,1110,DEFAULT_OTHER
+2625,Struweelhaag,Other,805,841,DEFAULT_OTHER
+2626,Laan,Other,77,77,DEFAULT_OTHER
+2628,Hoogstamboomgaard,Other,165,177,DEFAULT_OTHER
+2629,Struweelrand,Other,574,581,DEFAULT_OTHER
+2630,Hakhoutbosje,Other,227,205,DEFAULT_OTHER
+2631,Griendje,Other,23,17,DEFAULT_OTHER
+2634,Natuurvriendelijke oever,Other,222,207,DEFAULT_OTHER
+2636,Leibomen,Other,7,7,DEFAULT_OTHER
+2637,Schurvelingen en zandwallen,Other,7,9,DEFAULT_OTHER
+2638,"Landschapselement, overig",Other,624,0,DEFAULT_OTHER
+2639,"Water, overig",Other,89,77,DEFAULT_OTHER
+2642,Bosje,Other,1130,1137,DEFAULT_OTHER
+2645,Notenbomen,Other,13,18,DEFAULT_OTHER
+2652,"Granen, overig",SpringCereal,192,192,EXPLICIT_LOOKUP
+2702,"Aardbeien open grond, productie",Other,1,1,DEFAULT_OTHER
+2706,"Aardbeien op stellingen, productie",Other,5,5,DEFAULT_OTHER
+2709,"Andijvie, zaden en opkweekmateriaal",Other,0,1,DEFAULT_OTHER
+2710,"Asperges, oppervlakte die productie oplevert",Other,26,32,DEFAULT_OTHER
+2711,"Asperges, oppervlakte die nog geen productie oplevert",Other,6,7,DEFAULT_OTHER
+2712,"Asperges, zaden en opkweekmateriaal",Other,1,0,DEFAULT_OTHER
+2715,"Boerenkool, productie",Other,2,1,DEFAULT_OTHER
+2717,"Bospeen, productie",Other,3,3,DEFAULT_OTHER
+2719,"Broccoli, productie",Other,1,1,DEFAULT_OTHER
+2723,"Courgette, productie",Other,0,2,DEFAULT_OTHER
+2727,"Knolvenkel/venkel, productie",Other,0,3,DEFAULT_OTHER
+2729,"Komkommer, productie",Other,1,0,DEFAULT_OTHER
+2735,"Pompoen, productie",Other,20,20,DEFAULT_OTHER
+2736,"Pompoen, zaden en opkweekmateriaal",Other,8,8,DEFAULT_OTHER
+2737,"Koolraap, productie",Other,2,1,DEFAULT_OTHER
+2741,"Kroten/rode bieten, productie",Other,1,1,DEFAULT_OTHER
+2743,"Kruiden, productie",Other,2,0,DEFAULT_OTHER
+2744,"Kruiden, zaden en opkweekmateriaal",Other,7,5,DEFAULT_OTHER
+2745,"Paksoi, productie",Other,3,1,DEFAULT_OTHER
+2746,"Paksoi, zaden en opkweekmateriaal",Other,1,0,DEFAULT_OTHER
+2753,"Raapstelen, productie",Other,1,1,DEFAULT_OTHER
+2755,"Rabarber, productie",Other,1,1,DEFAULT_OTHER
+2759,"Rodekool, productie",Other,3,1,DEFAULT_OTHER
+2763,"Schorseneren, productie",Other,5,3,DEFAULT_OTHER
+2767,"Sla, ijsberg-, productie",Other,2,1,DEFAULT_OTHER
+2771,"Sla, overig, productie",Other,5,5,DEFAULT_OTHER
+2772,"Sla, overig, zaden en opkweekmateriaal",Other,2,2,DEFAULT_OTHER
+2773,"Spinazie, productie",Other,1,1,DEFAULT_OTHER
+2775,"Spitskool, productie",Other,2,2,DEFAULT_OTHER
+2777,"Spruitkool/spruitjes, productie",Other,1,2,DEFAULT_OTHER
+2779,"Stamsperziebonen (=stamslabonen), productie",Other,6,7,DEFAULT_OTHER
+2781,"Stoksnijbonen en stokslabonen, productie",Other,38,57,DEFAULT_OTHER
+2783,"Waspeen, productie",Other,31,8,DEFAULT_OTHER
+2785,"Winterpeen, productie",Other,4,3,DEFAULT_OTHER
+2791,"Overige niet genoemde bladgewassen, productie",Other,2,1,DEFAULT_OTHER
+2792,"Overige niet genoemde bladgewassen, zaden en opkweekmateriaal",Other,1,0,DEFAULT_OTHER
+2793,"Overige niet genoemde groenten, productie",Other,47,53,DEFAULT_OTHER
+2794,"Overige niet genoemde groenten, zaden en opkweekmateriaal",Other,6,13,DEFAULT_OTHER
+2797,"Bloemkool, zomer, productie",Other,1,4,DEFAULT_OTHER
+2798,"Bloemkool, zomer, zaden en opkweekmateriaal",Other,1,1,DEFAULT_OTHER
+2799,"Prei, winter, productie",Other,1,0,DEFAULT_OTHER
+2801,"Prei, zomer, productie",Other,0,2,DEFAULT_OTHER
+3502,Bladkool,Other,0,2,DEFAULT_OTHER
+3504,Bladrammenas,Other,16,8,DEFAULT_OTHER
+3510,Boekweit,Other,6,14,DEFAULT_OTHER
+3517,Sarepta mosterd/Caliente,Other,2,0,DEFAULT_OTHER
+3519,Soedangras/Sorghum,Other,44,49,DEFAULT_OTHER
+3801,"Tijdelijk onbeteelde grond, i.v.m. publieke werken",Other,5,2,DEFAULT_OTHER
+3802,"Tijdelijk onbeteelde grond, anders dan voor publieke werken",Other,11,10,DEFAULT_OTHER
+6522,Riet,Other,7,6,DEFAULT_OTHER
+6632,Zoete aardappelen,Other,2,1,DEFAULT_OTHER
+6636,Naakte haver,SpringCereal,2,3,EXPLICIT_LOOKUP
+6660,"Uien, gele zaai-",Other,60,63,DEFAULT_OTHER
+6664,"Uien, rode zaai-",Other,5,19,DEFAULT_OTHER
+6748,"Beemdlangbloem, groenbemesting, vanggewas",Other,1,1,DEFAULT_OTHER
+6750,"Engels raaigras, graszaad",Other,21,10,DEFAULT_OTHER
+6751,"Engels raaigras, groenbemesting, vanggewas",Other,46,44,DEFAULT_OTHER
+6752,"Festulolium, graszaad",Other,1,0,DEFAULT_OTHER
+6754,"Italiaans raaigras, graszaad",Other,14,2,DEFAULT_OTHER
+6755,"Italiaans raaigras, groenbemesting, vanggewas",Other,158,130,DEFAULT_OTHER
+6756,"Klaver, Alexandrijnse, groenbemesting, vanggewas",Other,1,2,DEFAULT_OTHER
+6757,"Klaver, Alexandrijnse, klaverzaad",Other,2,3,DEFAULT_OTHER
+6758,"Klaver, incarnaat, groenbemesting, vanggewas",Other,0,2,DEFAULT_OTHER
+6759,"Klaver, incarnaat, klaverzaad",Other,0,1,DEFAULT_OTHER
+6762,"Klaver, rode, groenbemesting, vanggewas",Other,41,17,DEFAULT_OTHER
+6763,"Klaver, rode, klaverzaad",Other,29,30,DEFAULT_OTHER
+6765,"Klaver, witte, klaverzaad",Other,3,3,DEFAULT_OTHER
+6768,Overig graszaad,Other,1,2,DEFAULT_OTHER
+6769,Overig klaverzaad,Other,0,1,DEFAULT_OTHER
+6783,"Rietzwenkgras, groenbemesting, vanggewas",Other,1,0,DEFAULT_OTHER
+6784,"Roodzwenkgras, graszaad",Other,1,1,DEFAULT_OTHER
+6785,"Roodzwenkgras, groenbemesting, vanggewas",Other,2,1,DEFAULT_OTHER
+6787,"Timothee, groenbemesting, vanggewas",Other,0,1,DEFAULT_OTHER
+6788,"Veldbeemdgras, graszaad",Other,0,3,DEFAULT_OTHER
+6791,"Westerwolds raaigras, groenbemesting, vanggewas",Other,1,0,DEFAULT_OTHER
+6793,Graften,Other,1,0,DEFAULT_OTHER
+6794,"Groene braak, spontane opkomst",Other,1153,1185,DEFAULT_OTHER
+6800,Ruigtes op landbouwpercelen,Other,337,320,DEFAULT_OTHER
+6801,Schouwpad,Other,229,214,DEFAULT_OTHER
+6802,Sedum,Other,0,1,DEFAULT_OTHER
+6807,Stroken wild gras,Other,2039,1841,DEFAULT_OTHER
+6808,Tuunwallen,Other,2,2,DEFAULT_OTHER
+6809,Voederhaag,Other,8,71,DEFAULT_OTHER
+7125,"Overige groenbemesters, niet-vlinderbloemige-, niet zijnde gras",Other,4,3,DEFAULT_OTHER
+7126,"Overige gras, groenbemesting, vanggewas",Other,59,52,DEFAULT_OTHER
+7127,Rietland,Other,0,4,DEFAULT_OTHER
+7128,Rietkraag/rietzoom,Other,19,0,DEFAULT_OTHER
+7129,"Rogge, groenvoedergewas",Other,8,3,DEFAULT_OTHER
+7130,"Rogge, korrelgewas",WinterCereal,119,141,EXPLICIT_LOOKUP
+7131,"Rogge, groenbemesting, vanggewas",Other,9,5,DEFAULT_OTHER
+7134,"Riet in water, anders dan een subsidiabele sloot",Other,0,8,DEFAULT_OTHER
+7135,Riet in een subsidiabele sloot,Other,0,3,DEFAULT_OTHER
+7137,"Bonen, overig",Other,0,5,DEFAULT_OTHER
+7138,Palmkool,Other,0,1,DEFAULT_OTHER

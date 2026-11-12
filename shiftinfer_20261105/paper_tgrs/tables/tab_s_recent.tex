@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\caption{RAINCOAT-SRS under four checkpoint rules fixed before the run, and ClimID-UDA ported to Sentinel-1, on the transfers of the main
+comparison. Median BA; in brackets the paired median difference of the proposed method. Rule A is used in the main text; rule D reads the
+target test labels at every epoch, as the official RAINCOAT trainer does, and is an upper bound for that method. Learning rate of
+RAINCOAT-SRS selected by rule A on four development transfers (mean BA 0.690 / 0.671 / 0.568 for $5\times10^{-4}$ / $10^{-3}$ / $2\times10^{-3}$).}
+\label{tab:s_recent}
+\centering\footnotesize
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Method & Site B & Site A & Pays de Caux\\
+\midrule
+RAINCOAT-SRS, rule A: held-out source parcels (main text) & 0.779 ($+0.027$) & 0.693 ($+0.047$) & 0.721 ($+0.059$)\\
+RAINCOAT-SRS, rule B: last epoch & 0.614 ($+0.187$) & 0.543 ($+0.191$) & 0.645 ($+0.138$)\\
+RAINCOAT-SRS, rule C: 2000 labelled target-season parcels & 0.803 ($+0.005$) & 0.709 ($+0.025$) & 0.732 ($+0.042$)\\
+RAINCOAT-SRS, rule D: target test labels (official code) & 0.805 ($+0.003$) & 0.725 ($+0.009$) & 0.747 ($+0.035$)\\
+ClimID-UDA, HGB: none / +ClimID & 0.611 / 0.604 & 0.527 / 0.519 & 0.639 / 0.632\\
+ClimID-UDA, TempCNN: none / +ClimID & 0.658 / 0.631 & 0.660 / 0.653 & 0.712 / 0.699\\
+Proposed (TempCNN) & 0.810 & 0.732 & 0.782\\
+\bottomrule
+\end{tabular}
+\end{table*}

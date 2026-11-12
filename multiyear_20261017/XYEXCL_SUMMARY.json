@@ -1,0 +1,73 @@
+{
+ "run_at": "2026-10-21 23:16:15",
+ "n_combinations": 1296,
+ "drop_frac_median": 0.00133,
+ "drop_frac_max": 0.00514,
+ "n_drop_total": 25009,
+ "combos_with_class_below_20": 0,
+ "by_group": {
+  "A37": {
+   "count": 432.0,
+   "mean": 0.0013,
+   "std": 0.0007,
+   "min": 0.0002,
+   "25%": 0.0007,
+   "50%": 0.0012,
+   "75%": 0.0017,
+   "max": 0.0039
+  },
+  "A88": {
+   "count": 432.0,
+   "mean": 0.0013,
+   "std": 0.0007,
+   "min": 0.0002,
+   "25%": 0.0007,
+   "50%": 0.0012,
+   "75%": 0.0017,
+   "max": 0.0039
+  },
+  "B88": {
+   "count": 432.0,
+   "mean": 0.0018,
+   "std": 0.001,
+   "min": 0.0001,
+   "25%": 0.0011,
+   "50%": 0.0016,
+   "75%": 0.0024,
+   "max": 0.0051
+  }
+ },
+ "inputs_sha256": {
+  "D:\\sar_data\\multiyear\\features_A.npz": "bee368da47bbcc40",
+  "D:\\sar_data\\multiyear\\brp\\brp_2017_aoi.gpkg": "253453bf50be1ec4",
+  "D:\\sar_data\\multiyear\\A\\labels\\parcel_table_2017.csv": "2e7b34cf3007fca8",
+  "D:\\sar_data\\multiyear\\brp\\brp_2018_aoi.gpkg": "c1f5894753d6863f",
+  "D:\\sar_data\\multiyear\\A\\labels\\parcel_table_2018.csv": "c0ee157ea055b849",
+  "D:\\sar_data\\multiyear\\brp\\brp_2019_aoi.gpkg": "740ce4d1d705e7d4",
+  "D:\\sar_data\\multiyear\\A\\labels\\parcel_table_2019.csv": "32cd6d4cc42fd2bc",
+  "D:\\sar_data\\multiyear\\brp\\brp_2020_aoi.gpkg": "fcb37d05c1526816",
+  "D:\\sar_data\\multiyear\\A\\labels\\parcel_table_2020.csv": "3a30c0cf6f4494e3",
+  "D:\\sar_data\\multiyear\\brp\\brp_2021_aoi.gpkg": "2b4c58166351b029",
+  "D:\\sar_data\\multiyear\\A\\labels\\parcel_table_2021.csv": "dabcbfc09864bf2b",
+  "D:\\sar_data\\multiyear\\brp\\brp_2022_aoi.gpkg": "7b0880d35540ff8f",
+  "D:\\sar_data\\multiyear\\A\\labels\\parcel_table_2022.csv": "c7593abcb6c5fc0a",
+  "D:\\sar_data\\multiyear\\brp\\brp_2023_aoi.gpkg": "7fbab2c62bc14d94",
+  "D:\\sar_data\\multiyear\\A\\labels\\parcel_table_2023.csv": "9a5a302ca3b3a041",
+  "E:\\research\\SAR\\sar_v2\\labels\\nl_brp\\brp_parcels_2024_aoi.geojson": "2151dd5d3ef3cd03",
+  "E:\\research\\SAR\\A1_observation_budget_20260923\\runs\\20260923_G0L_COMMON_GRID\\parcel_table_2024.csv": "6ac07b1ce50285f2",
+  "E:\\research\\SAR\\sar_v2\\labels\\nl_brp\\brp_parcels_aoi.geojson": "8e464701b0a818f1",
+  "E:\\research\\SAR\\A1_observation_budget_20260923\\runs\\20260923_G0L_COMMON_GRID\\parcel_table_2025.csv": "18a10448813e5109",
+  "D:\\sar_data\\multiyear\\features_B.npz": "70d8a3779a88e5c1",
+  "D:\\sar_data\\multiyear\\B\\labels\\parcel_table_2017.csv": "6dd7ebace1247c83",
+  "D:\\sar_data\\multiyear\\B\\labels\\parcel_table_2018.csv": "09be1f9c08ec6ddc",
+  "D:\\sar_data\\multiyear\\B\\labels\\parcel_table_2019.csv": "4f4cdf568b351784",
+  "D:\\sar_data\\multiyear\\B\\labels\\parcel_table_2020.csv": "2bd4d3848fb76908",
+  "D:\\sar_data\\multiyear\\B\\labels\\parcel_table_2021.csv": "9295f528267c4587",
+  "D:\\sar_data\\multiyear\\B\\labels\\parcel_table_2022.csv": "0ab41b70b482da20",
+  "D:\\sar_data\\multiyear\\B\\labels\\parcel_table_2023.csv": "8b687e049e9d3759",
+  "E:\\research\\SAR\\sar_v2\\labels\\nl_brp\\brpgewaspercelen_definitief_2024.gpkg": "027861ce96bd46c4",
+  "E:\\research\\SAR\\site2_20260930\\runs\\G0L_COMMON_GRID\\parcel_table_2024.csv": "0fed4b57c6e998de",
+  "E:\\research\\SAR\\sar_v2\\labels\\nl_brp\\brpgewaspercelen_definitief_2025.gpkg": "b1880ecd38c6f9fc",
+  "E:\\research\\SAR\\site2_20260930\\runs\\G0L_COMMON_GRID\\parcel_table_2025.csv": "0a637c7256208965"
+ }
+}

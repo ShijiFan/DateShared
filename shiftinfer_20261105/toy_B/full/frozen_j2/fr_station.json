@@ -1,0 +1,84 @@
+{
+ "station": "76679001",
+ "name": "SOMMESNIL",
+ "lat": 49.705667,
+ "lon": 0.673667,
+ "km_from_centre": 11.1,
+ "completeness": 1.0,
+ "missing_days": 0,
+ "source": "Q_76_previous-1950-2024_RR-T-Vent.csv.gz",
+ "candidates": [
+  {
+   "NUM_POSTE": "76228001",
+   "NOM_USUEL": "ECTOT LES BAONS",
+   "km": 8.731,
+   "complete": 0.99
+  },
+  {
+   "NUM_POSTE": "76752001",
+   "NOM_USUEL": "YERVILLE",
+   "km": 8.772,
+   "complete": 0.51
+  },
+  {
+   "NUM_POSTE": "76679001",
+   "NOM_USUEL": "SOMMESNIL",
+   "km": 11.089,
+   "complete": 1.0
+  },
+  {
+   "NUM_POSTE": "76159001",
+   "NOM_USUEL": "CANY-BARVILLE",
+   "km": 15.588,
+   "complete": 0.51
+  },
+  {
+   "NUM_POSTE": "76050001",
+   "NOM_USUEL": "AVREMESNIL",
+   "km": 16.143,
+   "complete": 0.521
+  },
+  {
+   "NUM_POSTE": "76655001",
+   "NOM_USUEL": "ST-VALERY",
+   "km": 17.28,
+   "complete": 0.633
+  },
+  {
+   "NUM_POSTE": "76566001",
+   "NOM_USUEL": "SAINTE-AUSTREBERTHE",
+   "km": 17.687,
+   "complete": 0.51
+  },
+  {
+   "NUM_POSTE": "76746001",
+   "NOM_USUEL": "VINNEMERVILLE",
+   "km": 21.005,
+   "complete": 1.0
+  },
+  {
+   "NUM_POSTE": "76473001",
+   "NOM_USUEL": "NOTRE-DAME DE BLIQUETUIT",
+   "km": 25.981,
+   "complete": 1.0
+  },
+  {
+   "NUM_POSTE": "76582001",
+   "NOM_USUEL": "ST-GERMAIN-D'ETABLES",
+   "km": 27.696,
+   "complete": 0.962
+  },
+  {
+   "NUM_POSTE": "76727002",
+   "NOM_USUEL": "VATTEVILLE-LA-RUE",
+   "km": 29.274,
+   "complete": 0.51
+  },
+  {
+   "NUM_POSTE": "76725002",
+   "NOM_USUEL": "VATTETOT-SOUS-B",
+   "km": 29.473,
+   "complete": 0.224
+  }
+ ]
+}
